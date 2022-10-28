@@ -1,0 +1,64 @@
+import random
+from torch_geometric.datasets import Planetoid
+from torch_geometric.nn import GAE, VGAE
+import torch_geometric.transforms as T
+from utils import *
+from torch import nn
+
+hyperpm=dict()
+hyperpm['seed']=random.randint(1, 1000)
+hyperpm['epoch']=800
+hyperpm['lr']=0.02
+hyperpm['weight_decay']=0
+
+set_rng_seed(hyperpm['seed'])
+
+device='cuda' if torch.cuda.is_available() else 'cpu'
+transform=T.Compose([T.NormalizeFeatures(), T.ToDevice(device),
+                     T.RandomLinkSplit(num_val=0.05, num_test=0.1, is_undirected=True,split_labels=True, add_negative_train_samples=False)])
+dataset = Planetoid(root='./dataset', name='Cora', transform=transform)
+train_data, val_data, test_data = dataset[0]
+
+class Linear(nn.Module):
+    def __init__(self):
+        super(Linear, self).__init__()
+        self.linear1 = nn.Linear(in_features=train_data.x.size(1), out_features=64)
+        self.linear2 = nn.Linear(in_features=train_data.x.size(1), out_features=64)
+
+    def forward(self, x):
+        mu = self.linear1(x)
+        logstd = self.linear2(x)
+        return mu, logstd
+
+
+model=VGAE(encoder=Linear()).to(device)
+optimizer = torch.optim.Adam(model.parameters(), lr=hyperpm['lr'])
+
+train_loss_list=[]
+def train():
+    model.train()
+    optimizer.zero_grad()
+    z = model.encode(train_data.x)
+    loss = model.recon_loss(z, train_data.pos_edge_label_index)
+    loss = loss + 1/train_data.num_nodes* model.kl_loss()
+    loss.backward()
+    optimizer.step()
+    train_loss_list.append(loss)
+    return loss, train_loss_list
+
+
+def test():
+    model.eval()
+    with torch.no_grad():
+        z = model.encode(test_data.x)
+        auc, ap = model.test(z, test_data.pos_edge_label_index, test_data.neg_edge_label_index)
+        return auc, ap
+
+
+for epoch in range(hyperpm['epoch']):
+    loss, train_loss_list = train()
+    loss = float(loss)
+    test_auc, test_ap = test()
+    print('Epoch: {:03d}, LOSS: {:.4f}, AUC: {:.4f}, AP: {:.4f}'.format(epoch, loss, test_auc, test_ap))
+log_param(hyperpm)
+visualize(train_loss_list)
