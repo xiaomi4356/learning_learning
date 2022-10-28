@@ -1,3 +1,4 @@
+#使用两个线性层输出mu，logstd，在cora数据集上做链接预测任务，在lr=0.02，训练700个epoch的情况下，AUC: 0.9360, AP: 0.9318
 import random
 from torch_geometric.datasets import Planetoid
 from torch_geometric.nn import GAE, VGAE
