@@ -1,0 +1,58 @@
+#关于loss函数的一个小发现
+import torch.nn
+from torch_geometric.transforms import NormalizeFeatures
+from torch_geometric.datasets import Planetoid
+from torch_geometric import nn
+from torch.nn import Module
+
+
+# 下载数据
+dataset = Planetoid(root='./dataset', name='Cora', transform=NormalizeFeatures())
+data = dataset[0]
+
+# 搭建模型
+class GCN(Module):
+    def __init__(self):
+        super(GCN, self).__init__()
+        self.conv1 = nn.GCNConv(dataset.num_features, dataset.num_classes)
+
+    def forward(self, x, edge_index):
+        x = self.conv1(x, edge_index)
+        return x
+model_list, optimizer_list=[], []
+Loss_F = torch.nn.CrossEntropyLoss()
+c, loss, total_loss=0, 0, 0
+
+for i in range(3):
+    model = GCN()
+    params=list(model.named_parameters())
+    print('=================================================================')
+    print(f'params{i}: {params}')
+    model_list.append(model)
+
+    optimizer = torch.optim.Adam(model.parameters(), lr=0.01, weight_decay=5e-4)
+    optimizer_list.append(optimizer)
+
+for i in range(3):
+    loss=0
+    out = model_list[i](data.x, data.edge_index)
+    loss = Loss_F(out, data.y)
+
+    optimizer_list[i].zero_grad()
+    loss.backward()
+
+    print('\n')
+    print('\n')
+    print('loss.backward')
+    params=list(model_list[i].named_parameters())
+    print('=================================================================')
+    print(f'params{i}: {params}')
+
+    optimizer_list[i].step()
+
+    print('\n')
+    print('\n')
+    print('optimizer.step')
+    params=list(model_list[i].named_parameters())
+    print('=================================================================')
+    print(f'params{i}: {params}')
