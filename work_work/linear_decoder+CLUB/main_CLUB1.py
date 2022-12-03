@@ -35,8 +35,8 @@ def train():
 
     for i in range(hyperpm['k']):
         for j in range(i + 1, hyperpm['k']):
-            cor = mi_estimators[mi_count](z[:, i * hyperpm['hidden_dim']: (i + 1) * hyperpm['hidden_dim']],
-                                                  z[:, j * hyperpm['hidden_dim']: (j + 1) * hyperpm['hidden_dim']])
+            cor = mi_estimators[mi_count](z[:, i * hyperpm['x_dim']: (i + 1) * hyperpm['x_dim']],
+                                                  z[:, j * hyperpm['x_dim']: (j + 1) * hyperpm['x_dim']])
             total_cor = total_cor+cor
             mi_count += 1
 
@@ -57,8 +57,8 @@ def train():
         total_lld_loss, mi_count = 0, 0
         for i in range(hyperpm['k']):
             for j in range(i + 1, hyperpm['k']):
-                lld_loss = mi_estimators[mi_count].learning_loss(z[:, i * hyperpm['hidden_dim']: (i + 1) * hyperpm['hidden_dim']],
-                                                   z[:, j * hyperpm['hidden_dim']: (j + 1) * hyperpm['hidden_dim']])
+                lld_loss = mi_estimators[mi_count].learning_loss(z[:, i * hyperpm['x_dim']: (i + 1) * hyperpm['x_dim']],
+                                                   z[:, j * hyperpm['x_dim']: (j + 1) * hyperpm['x_dim']])
                 total_lld_loss = total_lld_loss+lld_loss
                 mi_count += 1
 
