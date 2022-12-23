@@ -20,6 +20,6 @@ Pubmed
 #w/o CLUB
 Cora: average_test_auc:0.9526221604513753, average_test_ap:0.9548054578541114.
 Citeseer : average_test_auc:0.9652133800265668, average_test_ap:0.9670990694432657.
-Pubme :  average_test_auc:0.941913422565132, average_test_ap:0.940609508628223.
+Pubme : average_test_auc:0.947457223637738, average_test_ap:0.9463481534115491.
 
 
