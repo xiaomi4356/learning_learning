@@ -9,6 +9,8 @@ device=torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 hyperpm['dataset']='Cora'
 hyperpm['epoch']=300
 hyperpm['lr']=0.01
+hyperpm['k']=4
+hyperpm['x_dim']=64
 hyperpm['run_num']=10
 hyperpm['model']='VGAE'
 
