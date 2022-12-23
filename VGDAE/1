@@ -14,8 +14,8 @@ Pubmed_channel=[0.9576105005115407, 0.9655387437034889, 0.9687946223478086, 0.97
 =============================================abl_stu===============================================
 #w/o disent
 Cora: average_test_auc:0.8969048964998254, average_test_ap:0.8828848513035211.
-Citeseer: 
-Pubmed
+Citeseer:  average_test_auc:0.8290479410699192, average_test_ap:0.8221085885604127
+Pubmed: average_test_auc:0.8511230220565238, average_test_ap:0.8397530834428286
 
 #w/o CLUB
 Cora: average_test_auc:0.9526221604513753, average_test_ap:0.9548054578541114.
