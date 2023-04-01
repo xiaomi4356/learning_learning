@@ -1,0 +1,2 @@
+2023-03-24 13:16:58,084 - args: Namespace(dataset='reddit', datapath='../dataset', log_dir='logs/', name='debug', epoch=100, enc_lr=0.01, enc_weight_decay=0.0001, k=4, x_dim=64, routit=4, gpu=-1, de_rate1=0.3, de_rate2=0.2, df_rate1=0.3, df_rate2=0.5, m=20, n=4, log_epoch=200, log_lr=0.01, log_weight_decay=0.0001, log_trails=10, seed=-1, ratio=0.8, argv=['/home/dell/zxj/cdg/main_cv/main.py'], device=device(type='cuda'))
+2023-03-24 13:16:58,084 - ================================Encoder run=================================
