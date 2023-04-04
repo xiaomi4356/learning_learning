@@ -1,0 +1,1021 @@
+2023-04-04 17:07:42,868 - args: Namespace(datapath='../dataset', dataset='Cora', log_dir='logs/', name='debug', model='VGAE', k=5, x_dim=64, routit=3, dropout=0, gpu=-1, epoch=200, model_lr=0.01, val_frac=0.05, test_frac=0.1, trails=5, seed=-1, verbose=1, argv=['/home/dell/zxj/VGDAE_TNNLS_1/VGDAE/Updata/abl_update/DisenGCN/vgae_cora.py'], device=device(type='cuda', index=1))
+2023-04-04 17:07:47,671 - Epoch:000, train_loss:16.6111, val_auc:0.8005, val_ap: 0.8279, text_auc:0.8196, text_ap: 0.8489
+2023-04-04 17:07:47,723 - Epoch:001, train_loss:16.1878, val_auc:0.8220, val_ap: 0.8455, text_auc:0.8449, text_ap: 0.8660
+2023-04-04 17:07:47,767 - Epoch:002, train_loss:15.9121, val_auc:0.8331, val_ap: 0.8545, text_auc:0.8569, text_ap: 0.8741
+2023-04-04 17:07:47,822 - Epoch:003, train_loss:15.6937, val_auc:0.8392, val_ap: 0.8587, text_auc:0.8638, text_ap: 0.8789
+2023-04-04 17:07:47,883 - Epoch:004, train_loss:15.4949, val_auc:0.8434, val_ap: 0.8614, text_auc:0.8679, text_ap: 0.8816
+2023-04-04 17:07:47,947 - Epoch:005, train_loss:14.8306, val_auc:0.8469, val_ap: 0.8639, text_auc:0.8711, text_ap: 0.8837
+2023-04-04 17:07:47,999 - Epoch:006, train_loss:14.8819, val_auc:0.8500, val_ap: 0.8663, text_auc:0.8736, text_ap: 0.8853
+2023-04-04 17:07:48,070 - Epoch:007, train_loss:14.8747, val_auc:0.8519, val_ap: 0.8675, text_auc:0.8756, text_ap: 0.8867
+2023-04-04 17:07:48,125 - Epoch:008, train_loss:14.3536, val_auc:0.8541, val_ap: 0.8690, text_auc:0.8772, text_ap: 0.8878
+2023-04-04 17:07:48,197 - Epoch:009, train_loss:14.8246, val_auc:0.8557, val_ap: 0.8702, text_auc:0.8786, text_ap: 0.8888
+2023-04-04 17:07:48,260 - Epoch:010, train_loss:13.7393, val_auc:0.8573, val_ap: 0.8712, text_auc:0.8798, text_ap: 0.8896
+2023-04-04 17:07:48,312 - Epoch:011, train_loss:13.1180, val_auc:0.8583, val_ap: 0.8719, text_auc:0.8811, text_ap: 0.8905
+2023-04-04 17:07:48,378 - Epoch:012, train_loss:12.8616, val_auc:0.8597, val_ap: 0.8730, text_auc:0.8822, text_ap: 0.8912
+2023-04-04 17:07:48,429 - Epoch:013, train_loss:13.3897, val_auc:0.8613, val_ap: 0.8742, text_auc:0.8835, text_ap: 0.8922
+2023-04-04 17:07:48,488 - Epoch:014, train_loss:13.4211, val_auc:0.8627, val_ap: 0.8750, text_auc:0.8847, text_ap: 0.8930
+2023-04-04 17:07:48,545 - Epoch:015, train_loss:12.4505, val_auc:0.8639, val_ap: 0.8758, text_auc:0.8860, text_ap: 0.8939
+2023-04-04 17:07:48,614 - Epoch:016, train_loss:12.2441, val_auc:0.8658, val_ap: 0.8772, text_auc:0.8871, text_ap: 0.8948
+2023-04-04 17:07:48,680 - Epoch:017, train_loss:12.0791, val_auc:0.8675, val_ap: 0.8781, text_auc:0.8887, text_ap: 0.8959
+2023-04-04 17:07:48,746 - Epoch:018, train_loss:11.7581, val_auc:0.8694, val_ap: 0.8797, text_auc:0.8903, text_ap: 0.8971
+2023-04-04 17:07:48,795 - Epoch:019, train_loss:11.5585, val_auc:0.8716, val_ap: 0.8812, text_auc:0.8919, text_ap: 0.8983
+2023-04-04 17:07:48,848 - Epoch:020, train_loss:11.2934, val_auc:0.8733, val_ap: 0.8822, text_auc:0.8938, text_ap: 0.8997
+2023-04-04 17:07:48,904 - Epoch:021, train_loss:10.9054, val_auc:0.8756, val_ap: 0.8837, text_auc:0.8955, text_ap: 0.9010
+2023-04-04 17:07:48,974 - Epoch:022, train_loss:10.7238, val_auc:0.8785, val_ap: 0.8859, text_auc:0.8975, text_ap: 0.9024
+2023-04-04 17:07:49,024 - Epoch:023, train_loss:10.3735, val_auc:0.8819, val_ap: 0.8885, text_auc:0.8998, text_ap: 0.9040
+2023-04-04 17:07:49,092 - Epoch:024, train_loss:10.1511, val_auc:0.8861, val_ap: 0.8913, text_auc:0.9025, text_ap: 0.9060
+2023-04-04 17:07:49,156 - Epoch:025, train_loss:10.0763, val_auc:0.8912, val_ap: 0.8947, text_auc:0.9062, text_ap: 0.9088
+2023-04-04 17:07:49,206 - Epoch:026, train_loss:9.7686, val_auc:0.8976, val_ap: 0.8991, text_auc:0.9105, text_ap: 0.9120
+2023-04-04 17:07:49,259 - Epoch:027, train_loss:9.3272, val_auc:0.9074, val_ap: 0.9068, text_auc:0.9170, text_ap: 0.9169
+2023-04-04 17:07:49,322 - Epoch:028, train_loss:8.6231, val_auc:0.9204, val_ap: 0.9163, text_auc:0.9255, text_ap: 0.9228
+2023-04-04 17:07:49,379 - Epoch:029, train_loss:8.6046, val_auc:0.9331, val_ap: 0.9264, text_auc:0.9348, text_ap: 0.9291
+2023-04-04 17:07:49,424 - Epoch:030, train_loss:7.6748, val_auc:0.9423, val_ap: 0.9353, text_auc:0.9416, text_ap: 0.9336
+2023-04-04 17:07:49,481 - Epoch:031, train_loss:7.1503, val_auc:0.9468, val_ap: 0.9393, text_auc:0.9457, text_ap: 0.9362
+2023-04-04 17:07:49,520 - Epoch:032, train_loss:6.8269, val_auc:0.9451, val_ap: 0.9377
+2023-04-04 17:07:49,557 - Epoch:033, train_loss:6.4387, val_auc:0.9448, val_ap: 0.9365
+2023-04-04 17:07:49,595 - Epoch:034, train_loss:5.9517, val_auc:0.9449, val_ap: 0.9363
+2023-04-04 17:07:49,644 - Epoch:035, train_loss:5.8141, val_auc:0.9436, val_ap: 0.9359
+2023-04-04 17:07:49,675 - Epoch:036, train_loss:5.7224, val_auc:0.9437, val_ap: 0.9357
+2023-04-04 17:07:49,704 - Epoch:037, train_loss:5.2917, val_auc:0.9441, val_ap: 0.9355
+2023-04-04 17:07:49,744 - Epoch:038, train_loss:5.2059, val_auc:0.9446, val_ap: 0.9357
+2023-04-04 17:07:49,774 - Epoch:039, train_loss:5.1460, val_auc:0.9453, val_ap: 0.9360
+2023-04-04 17:07:49,799 - Epoch:040, train_loss:4.7472, val_auc:0.9463, val_ap: 0.9371
+2023-04-04 17:07:49,852 - Epoch:041, train_loss:4.4859, val_auc:0.9468, val_ap: 0.9374
+2023-04-04 17:07:49,880 - Epoch:042, train_loss:4.3720, val_auc:0.9468, val_ap: 0.9366
+2023-04-04 17:07:49,914 - Epoch:043, train_loss:4.3425, val_auc:0.9463, val_ap: 0.9360
+2023-04-04 17:07:49,956 - Epoch:044, train_loss:4.1880, val_auc:0.9460, val_ap: 0.9351
+2023-04-04 17:07:49,991 - Epoch:045, train_loss:3.9842, val_auc:0.9455, val_ap: 0.9347
+2023-04-04 17:07:50,024 - Epoch:046, train_loss:3.7719, val_auc:0.9455, val_ap: 0.9344
+2023-04-04 17:07:50,069 - Epoch:047, train_loss:3.9010, val_auc:0.9451, val_ap: 0.9343
+2023-04-04 17:07:50,100 - Epoch:048, train_loss:3.7846, val_auc:0.9447, val_ap: 0.9340
+2023-04-04 17:07:50,137 - Epoch:049, train_loss:3.5934, val_auc:0.9444, val_ap: 0.9343
+2023-04-04 17:07:50,173 - Epoch:050, train_loss:3.4760, val_auc:0.9444, val_ap: 0.9347
+2023-04-04 17:07:50,210 - Epoch:051, train_loss:3.4000, val_auc:0.9447, val_ap: 0.9356
+2023-04-04 17:07:50,243 - Epoch:052, train_loss:3.3227, val_auc:0.9446, val_ap: 0.9360
+2023-04-04 17:07:50,284 - Epoch:053, train_loss:3.1679, val_auc:0.9447, val_ap: 0.9363
+2023-04-04 17:07:50,324 - Epoch:054, train_loss:3.1381, val_auc:0.9447, val_ap: 0.9367
+2023-04-04 17:07:50,360 - Epoch:055, train_loss:3.1172, val_auc:0.9451, val_ap: 0.9366
+2023-04-04 17:07:50,391 - Epoch:056, train_loss:3.0429, val_auc:0.9452, val_ap: 0.9360
+2023-04-04 17:07:50,447 - Epoch:057, train_loss:2.9494, val_auc:0.9455, val_ap: 0.9361
+2023-04-04 17:07:50,473 - Epoch:058, train_loss:2.9167, val_auc:0.9454, val_ap: 0.9357
+2023-04-04 17:07:50,499 - Epoch:059, train_loss:2.8078, val_auc:0.9450, val_ap: 0.9349
+2023-04-04 17:07:50,529 - Epoch:060, train_loss:2.8271, val_auc:0.9447, val_ap: 0.9347
+2023-04-04 17:07:50,571 - Epoch:061, train_loss:2.7326, val_auc:0.9444, val_ap: 0.9341
+2023-04-04 17:07:50,604 - Epoch:062, train_loss:2.6096, val_auc:0.9440, val_ap: 0.9337
+2023-04-04 17:07:50,653 - Epoch:063, train_loss:2.5877, val_auc:0.9439, val_ap: 0.9340
+2023-04-04 17:07:50,700 - Epoch:064, train_loss:2.4868, val_auc:0.9441, val_ap: 0.9344
+2023-04-04 17:07:50,742 - Epoch:065, train_loss:2.5223, val_auc:0.9444, val_ap: 0.9348
+2023-04-04 17:07:50,786 - Epoch:066, train_loss:2.4841, val_auc:0.9445, val_ap: 0.9348
+2023-04-04 17:07:50,832 - Epoch:067, train_loss:2.4646, val_auc:0.9445, val_ap: 0.9350
+2023-04-04 17:07:50,874 - Epoch:068, train_loss:2.4511, val_auc:0.9448, val_ap: 0.9354
+2023-04-04 17:07:50,909 - Epoch:069, train_loss:2.3730, val_auc:0.9452, val_ap: 0.9359
+2023-04-04 17:07:50,932 - Epoch:070, train_loss:2.2993, val_auc:0.9453, val_ap: 0.9360
+2023-04-04 17:07:50,966 - Epoch:071, train_loss:2.2379, val_auc:0.9451, val_ap: 0.9362
+2023-04-04 17:07:51,008 - Epoch:072, train_loss:2.1558, val_auc:0.9451, val_ap: 0.9362
+2023-04-04 17:07:51,050 - Epoch:073, train_loss:2.2179, val_auc:0.9452, val_ap: 0.9361
+2023-04-04 17:07:51,094 - Epoch:074, train_loss:2.1535, val_auc:0.9452, val_ap: 0.9359
+2023-04-04 17:07:51,132 - Epoch:075, train_loss:2.0899, val_auc:0.9451, val_ap: 0.9357
+2023-04-04 17:07:51,182 - Epoch:076, train_loss:2.1688, val_auc:0.9451, val_ap: 0.9357
+2023-04-04 17:07:51,214 - Epoch:077, train_loss:2.0736, val_auc:0.9452, val_ap: 0.9355
+2023-04-04 17:07:51,267 - Epoch:078, train_loss:2.0417, val_auc:0.9455, val_ap: 0.9358
+2023-04-04 17:07:51,297 - Epoch:079, train_loss:2.0342, val_auc:0.9456, val_ap: 0.9359
+2023-04-04 17:07:51,321 - Epoch:080, train_loss:2.0235, val_auc:0.9459, val_ap: 0.9362
+2023-04-04 17:07:51,365 - Epoch:081, train_loss:2.0065, val_auc:0.9460, val_ap: 0.9365
+2023-04-04 17:07:51,401 - Epoch:082, train_loss:1.8995, val_auc:0.9461, val_ap: 0.9367
+2023-04-04 17:07:51,455 - Epoch:083, train_loss:1.9586, val_auc:0.9462, val_ap: 0.9371
+2023-04-04 17:07:51,498 - Epoch:084, train_loss:1.9560, val_auc:0.9464, val_ap: 0.9375
+2023-04-04 17:07:51,548 - Epoch:085, train_loss:1.9443, val_auc:0.9466, val_ap: 0.9377
+2023-04-04 17:07:51,585 - Epoch:086, train_loss:1.8725, val_auc:0.9467, val_ap: 0.9379
+2023-04-04 17:07:51,625 - Epoch:087, train_loss:1.8702, val_auc:0.9468, val_ap: 0.9379
+2023-04-04 17:07:51,649 - Epoch:088, train_loss:1.8684, val_auc:0.9467, val_ap: 0.9378
+2023-04-04 17:07:51,672 - Epoch:089, train_loss:1.8690, val_auc:0.9466, val_ap: 0.9377
+2023-04-04 17:07:51,718 - Epoch:090, train_loss:1.7733, val_auc:0.9467, val_ap: 0.9378
+2023-04-04 17:07:51,763 - Epoch:091, train_loss:1.8321, val_auc:0.9467, val_ap: 0.9378
+2023-04-04 17:07:51,806 - Epoch:092, train_loss:1.8439, val_auc:0.9468, val_ap: 0.9378
+2023-04-04 17:07:51,843 - Epoch:093, train_loss:1.7571, val_auc:0.9471, val_ap: 0.9382
+2023-04-04 17:07:51,879 - Epoch:094, train_loss:1.8097, val_auc:0.9474, val_ap: 0.9386
+2023-04-04 17:07:51,951 - Epoch:095, train_loss:1.7146, val_auc:0.9474, val_ap: 0.9387, text_auc:0.9431, text_ap: 0.9327
+2023-04-04 17:07:52,013 - Epoch:096, train_loss:1.6559, val_auc:0.9477, val_ap: 0.9389, text_auc:0.9434, text_ap: 0.9329
+2023-04-04 17:07:52,051 - Epoch:097, train_loss:1.6980, val_auc:0.9478, val_ap: 0.9391, text_auc:0.9436, text_ap: 0.9332
+2023-04-04 17:07:52,102 - Epoch:098, train_loss:1.6845, val_auc:0.9480, val_ap: 0.9393, text_auc:0.9440, text_ap: 0.9336
+2023-04-04 17:07:52,163 - Epoch:099, train_loss:1.6775, val_auc:0.9482, val_ap: 0.9396, text_auc:0.9443, text_ap: 0.9339
+2023-04-04 17:07:52,221 - Epoch:100, train_loss:1.6655, val_auc:0.9484, val_ap: 0.9400, text_auc:0.9445, text_ap: 0.9341
+2023-04-04 17:07:52,278 - Epoch:101, train_loss:1.5928, val_auc:0.9484, val_ap: 0.9402, text_auc:0.9446, text_ap: 0.9343
+2023-04-04 17:07:52,337 - Epoch:102, train_loss:1.6379, val_auc:0.9487, val_ap: 0.9405, text_auc:0.9446, text_ap: 0.9343
+2023-04-04 17:07:52,387 - Epoch:103, train_loss:1.6241, val_auc:0.9488, val_ap: 0.9406, text_auc:0.9446, text_ap: 0.9343
+2023-04-04 17:07:52,433 - Epoch:104, train_loss:1.5919, val_auc:0.9492, val_ap: 0.9409, text_auc:0.9444, text_ap: 0.9342
+2023-04-04 17:07:52,484 - Epoch:105, train_loss:1.6136, val_auc:0.9493, val_ap: 0.9408, text_auc:0.9446, text_ap: 0.9344
+2023-04-04 17:07:52,532 - Epoch:106, train_loss:1.5729, val_auc:0.9495, val_ap: 0.9408, text_auc:0.9447, text_ap: 0.9345
+2023-04-04 17:07:52,600 - Epoch:107, train_loss:1.6092, val_auc:0.9497, val_ap: 0.9409, text_auc:0.9450, text_ap: 0.9348
+2023-04-04 17:07:52,644 - Epoch:108, train_loss:1.5336, val_auc:0.9500, val_ap: 0.9412, text_auc:0.9454, text_ap: 0.9350
+2023-04-04 17:07:52,702 - Epoch:109, train_loss:1.5681, val_auc:0.9501, val_ap: 0.9415, text_auc:0.9456, text_ap: 0.9353
+2023-04-04 17:07:52,744 - Epoch:110, train_loss:1.5457, val_auc:0.9503, val_ap: 0.9417, text_auc:0.9459, text_ap: 0.9355
+2023-04-04 17:07:52,804 - Epoch:111, train_loss:1.5602, val_auc:0.9503, val_ap: 0.9417, text_auc:0.9460, text_ap: 0.9357
+2023-04-04 17:07:52,850 - Epoch:112, train_loss:1.5464, val_auc:0.9504, val_ap: 0.9420, text_auc:0.9460, text_ap: 0.9358
+2023-04-04 17:07:52,912 - Epoch:113, train_loss:1.4832, val_auc:0.9504, val_ap: 0.9421, text_auc:0.9461, text_ap: 0.9358
+2023-04-04 17:07:52,952 - Epoch:114, train_loss:1.5073, val_auc:0.9506, val_ap: 0.9424, text_auc:0.9461, text_ap: 0.9359
+2023-04-04 17:07:53,007 - Epoch:115, train_loss:1.5043, val_auc:0.9508, val_ap: 0.9426, text_auc:0.9462, text_ap: 0.9361
+2023-04-04 17:07:53,054 - Epoch:116, train_loss:1.4874, val_auc:0.9509, val_ap: 0.9429, text_auc:0.9463, text_ap: 0.9362
+2023-04-04 17:07:53,091 - Epoch:117, train_loss:1.4453, val_auc:0.9510, val_ap: 0.9428
+2023-04-04 17:07:53,123 - Epoch:118, train_loss:1.4787, val_auc:0.9510, val_ap: 0.9428
+2023-04-04 17:07:53,166 - Epoch:119, train_loss:1.4323, val_auc:0.9512, val_ap: 0.9430, text_auc:0.9463, text_ap: 0.9364
+2023-04-04 17:07:53,224 - Epoch:120, train_loss:1.4933, val_auc:0.9514, val_ap: 0.9431, text_auc:0.9464, text_ap: 0.9365
+2023-04-04 17:07:53,252 - Epoch:121, train_loss:1.4551, val_auc:0.9513, val_ap: 0.9432
+2023-04-04 17:07:53,298 - Epoch:122, train_loss:1.4420, val_auc:0.9512, val_ap: 0.9433
+2023-04-04 17:07:53,357 - Epoch:123, train_loss:1.4247, val_auc:0.9513, val_ap: 0.9437, text_auc:0.9467, text_ap: 0.9370
+2023-04-04 17:07:53,427 - Epoch:124, train_loss:1.4399, val_auc:0.9514, val_ap: 0.9439, text_auc:0.9471, text_ap: 0.9373
+2023-04-04 17:07:53,481 - Epoch:125, train_loss:1.4082, val_auc:0.9516, val_ap: 0.9441, text_auc:0.9475, text_ap: 0.9376
+2023-04-04 17:07:53,538 - Epoch:126, train_loss:1.4230, val_auc:0.9519, val_ap: 0.9447, text_auc:0.9478, text_ap: 0.9379
+2023-04-04 17:07:53,587 - Epoch:127, train_loss:1.4231, val_auc:0.9524, val_ap: 0.9452, text_auc:0.9482, text_ap: 0.9383
+2023-04-04 17:07:53,636 - Epoch:128, train_loss:1.3809, val_auc:0.9526, val_ap: 0.9454, text_auc:0.9483, text_ap: 0.9385
+2023-04-04 17:07:53,679 - Epoch:129, train_loss:1.4239, val_auc:0.9529, val_ap: 0.9456, text_auc:0.9485, text_ap: 0.9386
+2023-04-04 17:07:53,722 - Epoch:130, train_loss:1.3811, val_auc:0.9532, val_ap: 0.9457, text_auc:0.9485, text_ap: 0.9387
+2023-04-04 17:07:53,766 - Epoch:131, train_loss:1.3647, val_auc:0.9533, val_ap: 0.9458, text_auc:0.9485, text_ap: 0.9387
+2023-04-04 17:07:53,793 - Epoch:132, train_loss:1.3963, val_auc:0.9530, val_ap: 0.9456
+2023-04-04 17:07:53,817 - Epoch:133, train_loss:1.3407, val_auc:0.9530, val_ap: 0.9456
+2023-04-04 17:07:53,849 - Epoch:134, train_loss:1.3665, val_auc:0.9529, val_ap: 0.9456
+2023-04-04 17:07:53,885 - Epoch:135, train_loss:1.3395, val_auc:0.9530, val_ap: 0.9458
+2023-04-04 17:07:53,930 - Epoch:136, train_loss:1.3573, val_auc:0.9532, val_ap: 0.9460, text_auc:0.9481, text_ap: 0.9386
+2023-04-04 17:07:53,982 - Epoch:137, train_loss:1.3469, val_auc:0.9533, val_ap: 0.9462, text_auc:0.9482, text_ap: 0.9388
+2023-04-04 17:07:54,027 - Epoch:138, train_loss:1.3617, val_auc:0.9534, val_ap: 0.9462, text_auc:0.9486, text_ap: 0.9392
+2023-04-04 17:07:54,080 - Epoch:139, train_loss:1.3339, val_auc:0.9535, val_ap: 0.9464, text_auc:0.9489, text_ap: 0.9395
+2023-04-04 17:07:54,127 - Epoch:140, train_loss:1.3231, val_auc:0.9538, val_ap: 0.9467, text_auc:0.9494, text_ap: 0.9400
+2023-04-04 17:07:54,178 - Epoch:141, train_loss:1.3074, val_auc:0.9541, val_ap: 0.9469, text_auc:0.9495, text_ap: 0.9402
+2023-04-04 17:07:54,217 - Epoch:142, train_loss:1.2750, val_auc:0.9544, val_ap: 0.9472, text_auc:0.9498, text_ap: 0.9404
+2023-04-04 17:07:54,282 - Epoch:143, train_loss:1.3266, val_auc:0.9543, val_ap: 0.9474, text_auc:0.9502, text_ap: 0.9406
+2023-04-04 17:07:54,341 - Epoch:144, train_loss:1.3147, val_auc:0.9545, val_ap: 0.9478, text_auc:0.9503, text_ap: 0.9406
+2023-04-04 17:07:54,382 - Epoch:145, train_loss:1.2944, val_auc:0.9545, val_ap: 0.9480, text_auc:0.9504, text_ap: 0.9408
+2023-04-04 17:07:54,437 - Epoch:146, train_loss:1.2810, val_auc:0.9545, val_ap: 0.9481, text_auc:0.9504, text_ap: 0.9407
+2023-04-04 17:07:54,486 - Epoch:147, train_loss:1.2985, val_auc:0.9546, val_ap: 0.9482, text_auc:0.9503, text_ap: 0.9407
+2023-04-04 17:07:54,519 - Epoch:148, train_loss:1.2791, val_auc:0.9546, val_ap: 0.9482
+2023-04-04 17:07:54,575 - Epoch:149, train_loss:1.2712, val_auc:0.9548, val_ap: 0.9484, text_auc:0.9503, text_ap: 0.9408
+2023-04-04 17:07:54,629 - Epoch:150, train_loss:1.2907, val_auc:0.9550, val_ap: 0.9486, text_auc:0.9503, text_ap: 0.9409
+2023-04-04 17:07:54,682 - Epoch:151, train_loss:1.2634, val_auc:0.9552, val_ap: 0.9489, text_auc:0.9503, text_ap: 0.9410
+2023-04-04 17:07:54,728 - Epoch:152, train_loss:1.3040, val_auc:0.9554, val_ap: 0.9492, text_auc:0.9505, text_ap: 0.9412
+2023-04-04 17:07:54,778 - Epoch:153, train_loss:1.2653, val_auc:0.9554, val_ap: 0.9492, text_auc:0.9506, text_ap: 0.9413
+2023-04-04 17:07:54,842 - Epoch:154, train_loss:1.2492, val_auc:0.9552, val_ap: 0.9491
+2023-04-04 17:07:54,881 - Epoch:155, train_loss:1.2576, val_auc:0.9552, val_ap: 0.9491
+2023-04-04 17:07:54,920 - Epoch:156, train_loss:1.2794, val_auc:0.9551, val_ap: 0.9491
+2023-04-04 17:07:54,950 - Epoch:157, train_loss:1.2479, val_auc:0.9550, val_ap: 0.9490
+2023-04-04 17:07:54,988 - Epoch:158, train_loss:1.2666, val_auc:0.9551, val_ap: 0.9492
+2023-04-04 17:07:55,046 - Epoch:159, train_loss:1.2310, val_auc:0.9553, val_ap: 0.9495, text_auc:0.9513, text_ap: 0.9421
+2023-04-04 17:07:55,108 - Epoch:160, train_loss:1.2424, val_auc:0.9553, val_ap: 0.9495, text_auc:0.9512, text_ap: 0.9421
+2023-04-04 17:07:55,153 - Epoch:161, train_loss:1.2305, val_auc:0.9553, val_ap: 0.9495, text_auc:0.9512, text_ap: 0.9421
+2023-04-04 17:07:55,206 - Epoch:162, train_loss:1.2113, val_auc:0.9554, val_ap: 0.9496, text_auc:0.9510, text_ap: 0.9420
+2023-04-04 17:07:55,261 - Epoch:163, train_loss:1.2197, val_auc:0.9555, val_ap: 0.9500, text_auc:0.9509, text_ap: 0.9420
+2023-04-04 17:07:55,316 - Epoch:164, train_loss:1.2374, val_auc:0.9555, val_ap: 0.9501, text_auc:0.9508, text_ap: 0.9420
+2023-04-04 17:07:55,400 - Epoch:165, train_loss:1.2157, val_auc:0.9557, val_ap: 0.9505, text_auc:0.9511, text_ap: 0.9422
+2023-04-04 17:07:55,445 - Epoch:166, train_loss:1.2224, val_auc:0.9558, val_ap: 0.9509, text_auc:0.9512, text_ap: 0.9423
+2023-04-04 17:07:55,484 - Epoch:167, train_loss:1.2407, val_auc:0.9559, val_ap: 0.9510, text_auc:0.9515, text_ap: 0.9426
+2023-04-04 17:07:55,514 - Epoch:168, train_loss:1.1810, val_auc:0.9559, val_ap: 0.9510
+2023-04-04 17:07:55,542 - Epoch:169, train_loss:1.1816, val_auc:0.9557, val_ap: 0.9507
+2023-04-04 17:07:55,581 - Epoch:170, train_loss:1.1660, val_auc:0.9558, val_ap: 0.9508
+2023-04-04 17:07:55,617 - Epoch:171, train_loss:1.2130, val_auc:0.9558, val_ap: 0.9507
+2023-04-04 17:07:55,637 - Epoch:172, train_loss:1.2115, val_auc:0.9558, val_ap: 0.9506
+2023-04-04 17:07:55,670 - Epoch:173, train_loss:1.2140, val_auc:0.9560, val_ap: 0.9510, text_auc:0.9518, text_ap: 0.9431
+2023-04-04 17:07:55,722 - Epoch:174, train_loss:1.1835, val_auc:0.9561, val_ap: 0.9512, text_auc:0.9520, text_ap: 0.9433
+2023-04-04 17:07:55,765 - Epoch:175, train_loss:1.1503, val_auc:0.9566, val_ap: 0.9517, text_auc:0.9520, text_ap: 0.9432
+2023-04-04 17:07:55,804 - Epoch:176, train_loss:1.1698, val_auc:0.9569, val_ap: 0.9522, text_auc:0.9519, text_ap: 0.9432
+2023-04-04 17:07:55,871 - Epoch:177, train_loss:1.1763, val_auc:0.9567, val_ap: 0.9525, text_auc:0.9520, text_ap: 0.9433
+2023-04-04 17:07:55,919 - Epoch:178, train_loss:1.1817, val_auc:0.9567, val_ap: 0.9528, text_auc:0.9519, text_ap: 0.9432
+2023-04-04 17:07:55,949 - Epoch:179, train_loss:1.1628, val_auc:0.9564, val_ap: 0.9526
+2023-04-04 17:07:55,977 - Epoch:180, train_loss:1.1865, val_auc:0.9560, val_ap: 0.9523
+2023-04-04 17:07:56,013 - Epoch:181, train_loss:1.1795, val_auc:0.9561, val_ap: 0.9525
+2023-04-04 17:07:56,039 - Epoch:182, train_loss:1.1906, val_auc:0.9563, val_ap: 0.9524
+2023-04-04 17:07:56,059 - Epoch:183, train_loss:1.1893, val_auc:0.9566, val_ap: 0.9525
+2023-04-04 17:07:56,079 - Epoch:184, train_loss:1.1451, val_auc:0.9565, val_ap: 0.9524
+2023-04-04 17:07:56,108 - Epoch:185, train_loss:1.1396, val_auc:0.9565, val_ap: 0.9523
+2023-04-04 17:07:56,137 - Epoch:186, train_loss:1.1797, val_auc:0.9566, val_ap: 0.9526
+2023-04-04 17:07:56,164 - Epoch:187, train_loss:1.1504, val_auc:0.9566, val_ap: 0.9528
+2023-04-04 17:07:56,231 - Epoch:188, train_loss:1.1459, val_auc:0.9569, val_ap: 0.9534, text_auc:0.9521, text_ap: 0.9436
+2023-04-04 17:07:56,271 - Epoch:189, train_loss:1.1641, val_auc:0.9566, val_ap: 0.9536
+2023-04-04 17:07:56,319 - Epoch:190, train_loss:1.1335, val_auc:0.9568, val_ap: 0.9538, text_auc:0.9519, text_ap: 0.9436
+2023-04-04 17:07:56,336 - Epoch:191, train_loss:1.1282, val_auc:0.9568, val_ap: 0.9538
+2023-04-04 17:07:56,361 - Epoch:192, train_loss:1.1072, val_auc:0.9566, val_ap: 0.9536
+2023-04-04 17:07:56,389 - Epoch:193, train_loss:1.1450, val_auc:0.9566, val_ap: 0.9533
+2023-04-04 17:07:56,412 - Epoch:194, train_loss:1.1134, val_auc:0.9568, val_ap: 0.9533
+2023-04-04 17:07:56,435 - Epoch:195, train_loss:1.1427, val_auc:0.9567, val_ap: 0.9532
+2023-04-04 17:07:56,453 - Epoch:196, train_loss:1.1059, val_auc:0.9568, val_ap: 0.9536
+2023-04-04 17:07:56,510 - Epoch:197, train_loss:1.1346, val_auc:0.9569, val_ap: 0.9539, text_auc:0.9523, text_ap: 0.9442
+2023-04-04 17:07:56,581 - Epoch:198, train_loss:1.1289, val_auc:0.9572, val_ap: 0.9543, text_auc:0.9524, text_ap: 0.9443
+2023-04-04 17:07:56,630 - Epoch:199, train_loss:1.1366, val_auc:0.9574, val_ap: 0.9547, text_auc:0.9523, text_ap: 0.9442
+2023-04-04 17:07:56,631 - final results:
+2023-04-04 17:07:56,631 - ====================================================================================
+2023-04-04 17:07:56,631 - AUC:0.9523+-0.0000 [0.9523240280993343]
+2023-04-04 17:07:56,631 - AP:0.9442+-0.0000 [0.9441519912940428]
+2023-04-04 17:07:56,733 - Epoch:000, train_loss:16.7713, val_auc:0.8465, val_ap: 0.8787, text_auc:0.8172, text_ap: 0.8522
+2023-04-04 17:07:56,775 - Epoch:001, train_loss:16.1886, val_auc:0.8703, val_ap: 0.8986, text_auc:0.8390, text_ap: 0.8715
+2023-04-04 17:07:56,826 - Epoch:002, train_loss:16.4505, val_auc:0.8799, val_ap: 0.9057, text_auc:0.8479, text_ap: 0.8788
+2023-04-04 17:07:56,890 - Epoch:003, train_loss:15.9277, val_auc:0.8868, val_ap: 0.9107, text_auc:0.8531, text_ap: 0.8828
+2023-04-04 17:07:56,952 - Epoch:004, train_loss:15.5010, val_auc:0.8912, val_ap: 0.9140, text_auc:0.8571, text_ap: 0.8858
+2023-04-04 17:07:56,997 - Epoch:005, train_loss:15.4889, val_auc:0.8945, val_ap: 0.9166, text_auc:0.8605, text_ap: 0.8887
+2023-04-04 17:07:57,053 - Epoch:006, train_loss:14.7730, val_auc:0.8974, val_ap: 0.9188, text_auc:0.8632, text_ap: 0.8908
+2023-04-04 17:07:57,103 - Epoch:007, train_loss:14.7828, val_auc:0.8996, val_ap: 0.9206, text_auc:0.8654, text_ap: 0.8925
+2023-04-04 17:07:57,163 - Epoch:008, train_loss:14.6831, val_auc:0.9013, val_ap: 0.9221, text_auc:0.8676, text_ap: 0.8941
+2023-04-04 17:07:57,203 - Epoch:009, train_loss:14.4285, val_auc:0.9028, val_ap: 0.9235, text_auc:0.8695, text_ap: 0.8956
+2023-04-04 17:07:57,274 - Epoch:010, train_loss:13.8895, val_auc:0.9044, val_ap: 0.9247, text_auc:0.8714, text_ap: 0.8970
+2023-04-04 17:07:57,328 - Epoch:011, train_loss:13.5585, val_auc:0.9057, val_ap: 0.9259, text_auc:0.8730, text_ap: 0.8982
+2023-04-04 17:07:57,371 - Epoch:012, train_loss:13.5922, val_auc:0.9069, val_ap: 0.9269, text_auc:0.8748, text_ap: 0.8995
+2023-04-04 17:07:57,418 - Epoch:013, train_loss:12.9683, val_auc:0.9080, val_ap: 0.9277, text_auc:0.8765, text_ap: 0.9009
+2023-04-04 17:07:57,469 - Epoch:014, train_loss:13.2323, val_auc:0.9089, val_ap: 0.9286, text_auc:0.8783, text_ap: 0.9022
+2023-04-04 17:07:57,506 - Epoch:015, train_loss:12.2727, val_auc:0.9102, val_ap: 0.9297, text_auc:0.8803, text_ap: 0.9037
+2023-04-04 17:07:57,565 - Epoch:016, train_loss:12.4837, val_auc:0.9114, val_ap: 0.9306, text_auc:0.8821, text_ap: 0.9050
+2023-04-04 17:07:57,607 - Epoch:017, train_loss:12.5660, val_auc:0.9129, val_ap: 0.9317, text_auc:0.8841, text_ap: 0.9064
+2023-04-04 17:07:57,667 - Epoch:018, train_loss:11.6103, val_auc:0.9146, val_ap: 0.9332, text_auc:0.8861, text_ap: 0.9079
+2023-04-04 17:07:57,726 - Epoch:019, train_loss:11.7562, val_auc:0.9163, val_ap: 0.9346, text_auc:0.8884, text_ap: 0.9096
+2023-04-04 17:07:57,785 - Epoch:020, train_loss:11.5227, val_auc:0.9184, val_ap: 0.9362, text_auc:0.8907, text_ap: 0.9111
+2023-04-04 17:07:57,827 - Epoch:021, train_loss:10.8478, val_auc:0.9210, val_ap: 0.9380, text_auc:0.8935, text_ap: 0.9130
+2023-04-04 17:07:57,879 - Epoch:022, train_loss:10.6998, val_auc:0.9239, val_ap: 0.9401, text_auc:0.8967, text_ap: 0.9153
+2023-04-04 17:07:57,920 - Epoch:023, train_loss:10.3236, val_auc:0.9274, val_ap: 0.9426, text_auc:0.9010, text_ap: 0.9182
+2023-04-04 17:07:57,968 - Epoch:024, train_loss:10.2558, val_auc:0.9315, val_ap: 0.9455, text_auc:0.9063, text_ap: 0.9218
+2023-04-04 17:07:58,019 - Epoch:025, train_loss:9.7743, val_auc:0.9363, val_ap: 0.9493, text_auc:0.9131, text_ap: 0.9266
+2023-04-04 17:07:58,060 - Epoch:026, train_loss:9.2682, val_auc:0.9426, val_ap: 0.9544, text_auc:0.9221, text_ap: 0.9331
+2023-04-04 17:07:58,120 - Epoch:027, train_loss:8.7160, val_auc:0.9496, val_ap: 0.9602, text_auc:0.9339, text_ap: 0.9418
+2023-04-04 17:07:58,170 - Epoch:028, train_loss:8.2385, val_auc:0.9574, val_ap: 0.9660, text_auc:0.9455, text_ap: 0.9503
+2023-04-04 17:07:58,224 - Epoch:029, train_loss:7.8104, val_auc:0.9633, val_ap: 0.9697, text_auc:0.9518, text_ap: 0.9544
+2023-04-04 17:07:58,288 - Epoch:030, train_loss:7.2501, val_auc:0.9650, val_ap: 0.9703, text_auc:0.9521, text_ap: 0.9541
+2023-04-04 17:07:58,342 - Epoch:031, train_loss:6.7519, val_auc:0.9660, val_ap: 0.9712, text_auc:0.9519, text_ap: 0.9541
+2023-04-04 17:07:58,397 - Epoch:032, train_loss:6.3838, val_auc:0.9658, val_ap: 0.9715, text_auc:0.9518, text_ap: 0.9543
+2023-04-04 17:07:58,454 - Epoch:033, train_loss:6.3551, val_auc:0.9664, val_ap: 0.9721, text_auc:0.9523, text_ap: 0.9544
+2023-04-04 17:07:58,507 - Epoch:034, train_loss:6.4694, val_auc:0.9675, val_ap: 0.9725, text_auc:0.9527, text_ap: 0.9544
+2023-04-04 17:07:58,538 - Epoch:035, train_loss:5.9314, val_auc:0.9677, val_ap: 0.9722
+2023-04-04 17:07:58,566 - Epoch:036, train_loss:5.4047, val_auc:0.9678, val_ap: 0.9720
+2023-04-04 17:07:58,599 - Epoch:037, train_loss:5.3983, val_auc:0.9668, val_ap: 0.9710
+2023-04-04 17:07:58,623 - Epoch:038, train_loss:5.1673, val_auc:0.9660, val_ap: 0.9701
+2023-04-04 17:07:58,656 - Epoch:039, train_loss:4.8473, val_auc:0.9655, val_ap: 0.9696
+2023-04-04 17:07:58,698 - Epoch:040, train_loss:4.7797, val_auc:0.9653, val_ap: 0.9694
+2023-04-04 17:07:58,740 - Epoch:041, train_loss:4.6905, val_auc:0.9652, val_ap: 0.9694
+2023-04-04 17:07:58,786 - Epoch:042, train_loss:4.4345, val_auc:0.9654, val_ap: 0.9695
+2023-04-04 17:07:58,819 - Epoch:043, train_loss:4.3810, val_auc:0.9654, val_ap: 0.9695
+2023-04-04 17:07:58,857 - Epoch:044, train_loss:4.1439, val_auc:0.9651, val_ap: 0.9693
+2023-04-04 17:07:58,891 - Epoch:045, train_loss:4.0508, val_auc:0.9653, val_ap: 0.9695
+2023-04-04 17:07:58,927 - Epoch:046, train_loss:3.8785, val_auc:0.9651, val_ap: 0.9693
+2023-04-04 17:07:58,958 - Epoch:047, train_loss:3.5477, val_auc:0.9649, val_ap: 0.9691
+2023-04-04 17:07:58,989 - Epoch:048, train_loss:3.7503, val_auc:0.9650, val_ap: 0.9691
+2023-04-04 17:07:59,033 - Epoch:049, train_loss:3.5515, val_auc:0.9647, val_ap: 0.9687
+2023-04-04 17:07:59,068 - Epoch:050, train_loss:3.5975, val_auc:0.9646, val_ap: 0.9685
+2023-04-04 17:07:59,113 - Epoch:051, train_loss:3.3928, val_auc:0.9642, val_ap: 0.9680
+2023-04-04 17:07:59,147 - Epoch:052, train_loss:3.3678, val_auc:0.9641, val_ap: 0.9678
+2023-04-04 17:07:59,191 - Epoch:053, train_loss:3.2376, val_auc:0.9638, val_ap: 0.9675
+2023-04-04 17:07:59,225 - Epoch:054, train_loss:3.1094, val_auc:0.9635, val_ap: 0.9673
+2023-04-04 17:07:59,264 - Epoch:055, train_loss:3.1302, val_auc:0.9635, val_ap: 0.9671
+2023-04-04 17:07:59,298 - Epoch:056, train_loss:2.9819, val_auc:0.9637, val_ap: 0.9673
+2023-04-04 17:07:59,343 - Epoch:057, train_loss:2.9328, val_auc:0.9636, val_ap: 0.9674
+2023-04-04 17:07:59,371 - Epoch:058, train_loss:2.9123, val_auc:0.9636, val_ap: 0.9675
+2023-04-04 17:07:59,401 - Epoch:059, train_loss:2.8263, val_auc:0.9634, val_ap: 0.9674
+2023-04-04 17:07:59,434 - Epoch:060, train_loss:2.8072, val_auc:0.9634, val_ap: 0.9675
+2023-04-04 17:07:59,459 - Epoch:061, train_loss:2.7049, val_auc:0.9635, val_ap: 0.9677
+2023-04-04 17:07:59,506 - Epoch:062, train_loss:2.6325, val_auc:0.9635, val_ap: 0.9676
+2023-04-04 17:07:59,538 - Epoch:063, train_loss:2.5956, val_auc:0.9636, val_ap: 0.9678
+2023-04-04 17:07:59,576 - Epoch:064, train_loss:2.5614, val_auc:0.9638, val_ap: 0.9679
+2023-04-04 17:07:59,605 - Epoch:065, train_loss:2.4856, val_auc:0.9639, val_ap: 0.9679
+2023-04-04 17:07:59,634 - Epoch:066, train_loss:2.4234, val_auc:0.9641, val_ap: 0.9681
+2023-04-04 17:07:59,674 - Epoch:067, train_loss:2.4063, val_auc:0.9643, val_ap: 0.9681
+2023-04-04 17:07:59,704 - Epoch:068, train_loss:2.3782, val_auc:0.9642, val_ap: 0.9681
+2023-04-04 17:07:59,754 - Epoch:069, train_loss:2.3352, val_auc:0.9641, val_ap: 0.9680
+2023-04-04 17:07:59,788 - Epoch:070, train_loss:2.2542, val_auc:0.9641, val_ap: 0.9681
+2023-04-04 17:07:59,829 - Epoch:071, train_loss:2.2920, val_auc:0.9640, val_ap: 0.9679
+2023-04-04 17:07:59,864 - Epoch:072, train_loss:2.2400, val_auc:0.9637, val_ap: 0.9677
+2023-04-04 17:07:59,891 - Epoch:073, train_loss:2.1864, val_auc:0.9636, val_ap: 0.9676
+2023-04-04 17:07:59,930 - Epoch:074, train_loss:2.1710, val_auc:0.9635, val_ap: 0.9676
+2023-04-04 17:07:59,957 - Epoch:075, train_loss:2.1575, val_auc:0.9636, val_ap: 0.9677
+2023-04-04 17:08:00,009 - Epoch:076, train_loss:2.1312, val_auc:0.9638, val_ap: 0.9680
+2023-04-04 17:08:00,042 - Epoch:077, train_loss:2.0683, val_auc:0.9642, val_ap: 0.9683
+2023-04-04 17:08:00,084 - Epoch:078, train_loss:2.0943, val_auc:0.9643, val_ap: 0.9684
+2023-04-04 17:08:00,111 - Epoch:079, train_loss:2.0127, val_auc:0.9645, val_ap: 0.9686
+2023-04-04 17:08:00,141 - Epoch:080, train_loss:1.9999, val_auc:0.9646, val_ap: 0.9686
+2023-04-04 17:08:00,184 - Epoch:081, train_loss:2.0737, val_auc:0.9646, val_ap: 0.9686
+2023-04-04 17:08:00,203 - Epoch:082, train_loss:1.9154, val_auc:0.9646, val_ap: 0.9686
+2023-04-04 17:08:00,226 - Epoch:083, train_loss:1.9453, val_auc:0.9644, val_ap: 0.9685
+2023-04-04 17:08:00,260 - Epoch:084, train_loss:1.9077, val_auc:0.9646, val_ap: 0.9686
+2023-04-04 17:08:00,290 - Epoch:085, train_loss:1.8645, val_auc:0.9646, val_ap: 0.9687
+2023-04-04 17:08:00,323 - Epoch:086, train_loss:1.9486, val_auc:0.9646, val_ap: 0.9687
+2023-04-04 17:08:00,367 - Epoch:087, train_loss:1.8532, val_auc:0.9646, val_ap: 0.9687
+2023-04-04 17:08:00,396 - Epoch:088, train_loss:1.8610, val_auc:0.9649, val_ap: 0.9690
+2023-04-04 17:08:00,438 - Epoch:089, train_loss:1.8666, val_auc:0.9650, val_ap: 0.9691
+2023-04-04 17:08:00,475 - Epoch:090, train_loss:1.7643, val_auc:0.9652, val_ap: 0.9693
+2023-04-04 17:08:00,515 - Epoch:091, train_loss:1.7804, val_auc:0.9653, val_ap: 0.9694
+2023-04-04 17:08:00,544 - Epoch:092, train_loss:1.7382, val_auc:0.9656, val_ap: 0.9696
+2023-04-04 17:08:00,579 - Epoch:093, train_loss:1.7743, val_auc:0.9653, val_ap: 0.9694
+2023-04-04 17:08:00,612 - Epoch:094, train_loss:1.7332, val_auc:0.9651, val_ap: 0.9693
+2023-04-04 17:08:00,638 - Epoch:095, train_loss:1.7389, val_auc:0.9652, val_ap: 0.9694
+2023-04-04 17:08:00,674 - Epoch:096, train_loss:1.7062, val_auc:0.9651, val_ap: 0.9693
+2023-04-04 17:08:00,700 - Epoch:097, train_loss:1.6669, val_auc:0.9652, val_ap: 0.9693
+2023-04-04 17:08:00,728 - Epoch:098, train_loss:1.7546, val_auc:0.9653, val_ap: 0.9694
+2023-04-04 17:08:00,770 - Epoch:099, train_loss:1.6426, val_auc:0.9655, val_ap: 0.9696
+2023-04-04 17:08:00,801 - Epoch:100, train_loss:1.7262, val_auc:0.9658, val_ap: 0.9699
+2023-04-04 17:08:00,838 - Epoch:101, train_loss:1.6732, val_auc:0.9659, val_ap: 0.9700
+2023-04-04 17:08:00,872 - Epoch:102, train_loss:1.6210, val_auc:0.9660, val_ap: 0.9702
+2023-04-04 17:08:00,910 - Epoch:103, train_loss:1.6102, val_auc:0.9660, val_ap: 0.9702
+2023-04-04 17:08:00,950 - Epoch:104, train_loss:1.5935, val_auc:0.9662, val_ap: 0.9704
+2023-04-04 17:08:00,978 - Epoch:105, train_loss:1.6121, val_auc:0.9663, val_ap: 0.9705
+2023-04-04 17:08:01,016 - Epoch:106, train_loss:1.5725, val_auc:0.9663, val_ap: 0.9707
+2023-04-04 17:08:01,042 - Epoch:107, train_loss:1.5880, val_auc:0.9664, val_ap: 0.9708
+2023-04-04 17:08:01,094 - Epoch:108, train_loss:1.5337, val_auc:0.9663, val_ap: 0.9706
+2023-04-04 17:08:01,123 - Epoch:109, train_loss:1.5176, val_auc:0.9661, val_ap: 0.9706
+2023-04-04 17:08:01,167 - Epoch:110, train_loss:1.4949, val_auc:0.9662, val_ap: 0.9706
+2023-04-04 17:08:01,199 - Epoch:111, train_loss:1.4876, val_auc:0.9662, val_ap: 0.9707
+2023-04-04 17:08:01,242 - Epoch:112, train_loss:1.5588, val_auc:0.9663, val_ap: 0.9707
+2023-04-04 17:08:01,269 - Epoch:113, train_loss:1.4982, val_auc:0.9664, val_ap: 0.9709
+2023-04-04 17:08:01,301 - Epoch:114, train_loss:1.5184, val_auc:0.9666, val_ap: 0.9710
+2023-04-04 17:08:01,334 - Epoch:115, train_loss:1.5085, val_auc:0.9668, val_ap: 0.9712
+2023-04-04 17:08:01,369 - Epoch:116, train_loss:1.5205, val_auc:0.9671, val_ap: 0.9715
+2023-04-04 17:08:01,408 - Epoch:117, train_loss:1.5096, val_auc:0.9673, val_ap: 0.9717
+2023-04-04 17:08:01,434 - Epoch:118, train_loss:1.4419, val_auc:0.9674, val_ap: 0.9718
+2023-04-04 17:08:01,462 - Epoch:119, train_loss:1.4418, val_auc:0.9675, val_ap: 0.9719
+2023-04-04 17:08:01,505 - Epoch:120, train_loss:1.4857, val_auc:0.9674, val_ap: 0.9719
+2023-04-04 17:08:01,534 - Epoch:121, train_loss:1.4342, val_auc:0.9671, val_ap: 0.9716
+2023-04-04 17:08:01,576 - Epoch:122, train_loss:1.4438, val_auc:0.9670, val_ap: 0.9715
+2023-04-04 17:08:01,603 - Epoch:123, train_loss:1.4560, val_auc:0.9670, val_ap: 0.9716
+2023-04-04 17:08:01,632 - Epoch:124, train_loss:1.4485, val_auc:0.9671, val_ap: 0.9717
+2023-04-04 17:08:01,688 - Epoch:125, train_loss:1.4422, val_auc:0.9672, val_ap: 0.9718
+2023-04-04 17:08:01,727 - Epoch:126, train_loss:1.3983, val_auc:0.9671, val_ap: 0.9717
+2023-04-04 17:08:01,768 - Epoch:127, train_loss:1.4263, val_auc:0.9672, val_ap: 0.9719
+2023-04-04 17:08:01,795 - Epoch:128, train_loss:1.3665, val_auc:0.9674, val_ap: 0.9720
+2023-04-04 17:08:01,830 - Epoch:129, train_loss:1.4084, val_auc:0.9677, val_ap: 0.9723
+2023-04-04 17:08:01,898 - Epoch:130, train_loss:1.3879, val_auc:0.9680, val_ap: 0.9726, text_auc:0.9529, text_ap: 0.9557
+2023-04-04 17:08:01,961 - Epoch:131, train_loss:1.4233, val_auc:0.9682, val_ap: 0.9727, text_auc:0.9530, text_ap: 0.9558
+2023-04-04 17:08:02,006 - Epoch:132, train_loss:1.3865, val_auc:0.9684, val_ap: 0.9728, text_auc:0.9531, text_ap: 0.9559
+2023-04-04 17:08:02,032 - Epoch:133, train_loss:1.3793, val_auc:0.9681, val_ap: 0.9726
+2023-04-04 17:08:02,061 - Epoch:134, train_loss:1.3390, val_auc:0.9679, val_ap: 0.9725
+2023-04-04 17:08:02,099 - Epoch:135, train_loss:1.3651, val_auc:0.9678, val_ap: 0.9723
+2023-04-04 17:08:02,126 - Epoch:136, train_loss:1.3649, val_auc:0.9677, val_ap: 0.9723
+2023-04-04 17:08:02,153 - Epoch:137, train_loss:1.3385, val_auc:0.9676, val_ap: 0.9723
+2023-04-04 17:08:02,198 - Epoch:138, train_loss:1.3274, val_auc:0.9677, val_ap: 0.9724
+2023-04-04 17:08:02,235 - Epoch:139, train_loss:1.3550, val_auc:0.9680, val_ap: 0.9727
+2023-04-04 17:08:02,284 - Epoch:140, train_loss:1.3239, val_auc:0.9682, val_ap: 0.9729
+2023-04-04 17:08:02,335 - Epoch:141, train_loss:1.3045, val_auc:0.9683, val_ap: 0.9730, text_auc:0.9534, text_ap: 0.9564
+2023-04-04 17:08:02,390 - Epoch:142, train_loss:1.3075, val_auc:0.9684, val_ap: 0.9731, text_auc:0.9533, text_ap: 0.9564
+2023-04-04 17:08:02,431 - Epoch:143, train_loss:1.3530, val_auc:0.9684, val_ap: 0.9731
+2023-04-04 17:08:02,478 - Epoch:144, train_loss:1.2775, val_auc:0.9685, val_ap: 0.9732, text_auc:0.9531, text_ap: 0.9564
+2023-04-04 17:08:02,515 - Epoch:145, train_loss:1.2977, val_auc:0.9684, val_ap: 0.9731
+2023-04-04 17:08:02,541 - Epoch:146, train_loss:1.2991, val_auc:0.9682, val_ap: 0.9730
+2023-04-04 17:08:02,575 - Epoch:147, train_loss:1.2814, val_auc:0.9681, val_ap: 0.9729
+2023-04-04 17:08:02,601 - Epoch:148, train_loss:1.2699, val_auc:0.9680, val_ap: 0.9729
+2023-04-04 17:08:02,627 - Epoch:149, train_loss:1.3218, val_auc:0.9680, val_ap: 0.9728
+2023-04-04 17:08:02,665 - Epoch:150, train_loss:1.3010, val_auc:0.9679, val_ap: 0.9728
+2023-04-04 17:08:02,697 - Epoch:151, train_loss:1.2693, val_auc:0.9680, val_ap: 0.9729
+2023-04-04 17:08:02,740 - Epoch:152, train_loss:1.2521, val_auc:0.9682, val_ap: 0.9731
+2023-04-04 17:08:02,772 - Epoch:153, train_loss:1.2756, val_auc:0.9684, val_ap: 0.9732
+2023-04-04 17:08:02,815 - Epoch:154, train_loss:1.2631, val_auc:0.9687, val_ap: 0.9734, text_auc:0.9530, text_ap: 0.9569
+2023-04-04 17:08:02,862 - Epoch:155, train_loss:1.2425, val_auc:0.9687, val_ap: 0.9735, text_auc:0.9531, text_ap: 0.9570
+2023-04-04 17:08:02,892 - Epoch:156, train_loss:1.2388, val_auc:0.9687, val_ap: 0.9735
+2023-04-04 17:08:02,927 - Epoch:157, train_loss:1.2444, val_auc:0.9682, val_ap: 0.9733
+2023-04-04 17:08:02,956 - Epoch:158, train_loss:1.2170, val_auc:0.9681, val_ap: 0.9732
+2023-04-04 17:08:02,988 - Epoch:159, train_loss:1.2488, val_auc:0.9680, val_ap: 0.9732
+2023-04-04 17:08:03,026 - Epoch:160, train_loss:1.2324, val_auc:0.9679, val_ap: 0.9731
+2023-04-04 17:08:03,055 - Epoch:161, train_loss:1.2735, val_auc:0.9679, val_ap: 0.9732
+2023-04-04 17:08:03,099 - Epoch:162, train_loss:1.2332, val_auc:0.9677, val_ap: 0.9731
+2023-04-04 17:08:03,129 - Epoch:163, train_loss:1.2472, val_auc:0.9679, val_ap: 0.9733
+2023-04-04 17:08:03,180 - Epoch:164, train_loss:1.2147, val_auc:0.9680, val_ap: 0.9733
+2023-04-04 17:08:03,208 - Epoch:165, train_loss:1.1991, val_auc:0.9680, val_ap: 0.9733
+2023-04-04 17:08:03,255 - Epoch:166, train_loss:1.2112, val_auc:0.9681, val_ap: 0.9734
+2023-04-04 17:08:03,286 - Epoch:167, train_loss:1.2017, val_auc:0.9683, val_ap: 0.9736
+2023-04-04 17:08:03,346 - Epoch:168, train_loss:1.2003, val_auc:0.9685, val_ap: 0.9738, text_auc:0.9525, text_ap: 0.9572
+2023-04-04 17:08:03,397 - Epoch:169, train_loss:1.2170, val_auc:0.9690, val_ap: 0.9743, text_auc:0.9528, text_ap: 0.9576
+2023-04-04 17:08:03,446 - Epoch:170, train_loss:1.2398, val_auc:0.9691, val_ap: 0.9744, text_auc:0.9529, text_ap: 0.9577
+2023-04-04 17:08:03,470 - Epoch:171, train_loss:1.1798, val_auc:0.9690, val_ap: 0.9743
+2023-04-04 17:08:03,497 - Epoch:172, train_loss:1.1948, val_auc:0.9687, val_ap: 0.9742
+2023-04-04 17:08:03,538 - Epoch:173, train_loss:1.1695, val_auc:0.9686, val_ap: 0.9742
+2023-04-04 17:08:03,564 - Epoch:174, train_loss:1.2057, val_auc:0.9685, val_ap: 0.9740
+2023-04-04 17:08:03,590 - Epoch:175, train_loss:1.2105, val_auc:0.9685, val_ap: 0.9739
+2023-04-04 17:08:03,631 - Epoch:176, train_loss:1.1714, val_auc:0.9683, val_ap: 0.9738
+2023-04-04 17:08:03,662 - Epoch:177, train_loss:1.1710, val_auc:0.9680, val_ap: 0.9736
+2023-04-04 17:08:03,701 - Epoch:178, train_loss:1.2014, val_auc:0.9678, val_ap: 0.9735
+2023-04-04 17:08:03,745 - Epoch:179, train_loss:1.1840, val_auc:0.9677, val_ap: 0.9735
+2023-04-04 17:08:03,781 - Epoch:180, train_loss:1.1660, val_auc:0.9677, val_ap: 0.9735
+2023-04-04 17:08:03,822 - Epoch:181, train_loss:1.1672, val_auc:0.9678, val_ap: 0.9736
+2023-04-04 17:08:03,858 - Epoch:182, train_loss:1.1352, val_auc:0.9681, val_ap: 0.9740
+2023-04-04 17:08:03,900 - Epoch:183, train_loss:1.1616, val_auc:0.9682, val_ap: 0.9740
+2023-04-04 17:08:03,927 - Epoch:184, train_loss:1.1321, val_auc:0.9680, val_ap: 0.9739
+2023-04-04 17:08:03,964 - Epoch:185, train_loss:1.1561, val_auc:0.9681, val_ap: 0.9740
+2023-04-04 17:08:03,995 - Epoch:186, train_loss:1.1632, val_auc:0.9682, val_ap: 0.9741
+2023-04-04 17:08:04,032 - Epoch:187, train_loss:1.1474, val_auc:0.9682, val_ap: 0.9741
+2023-04-04 17:08:04,064 - Epoch:188, train_loss:1.1383, val_auc:0.9679, val_ap: 0.9739
+2023-04-04 17:08:04,093 - Epoch:189, train_loss:1.1591, val_auc:0.9679, val_ap: 0.9738
+2023-04-04 17:08:04,142 - Epoch:190, train_loss:1.1209, val_auc:0.9678, val_ap: 0.9738
+2023-04-04 17:08:04,175 - Epoch:191, train_loss:1.1388, val_auc:0.9679, val_ap: 0.9740
+2023-04-04 17:08:04,213 - Epoch:192, train_loss:1.1412, val_auc:0.9678, val_ap: 0.9739
+2023-04-04 17:08:04,258 - Epoch:193, train_loss:1.1357, val_auc:0.9677, val_ap: 0.9739
+2023-04-04 17:08:04,297 - Epoch:194, train_loss:1.1419, val_auc:0.9677, val_ap: 0.9740
+2023-04-04 17:08:04,338 - Epoch:195, train_loss:1.1601, val_auc:0.9678, val_ap: 0.9742
+2023-04-04 17:08:04,375 - Epoch:196, train_loss:1.1146, val_auc:0.9678, val_ap: 0.9742
+2023-04-04 17:08:04,408 - Epoch:197, train_loss:1.1222, val_auc:0.9677, val_ap: 0.9740
+2023-04-04 17:08:04,447 - Epoch:198, train_loss:1.1295, val_auc:0.9677, val_ap: 0.9741
+2023-04-04 17:08:04,495 - Epoch:199, train_loss:1.0912, val_auc:0.9679, val_ap: 0.9741
+2023-04-04 17:08:04,495 - final results:
+2023-04-04 17:08:04,496 - ====================================================================================
+2023-04-04 17:08:04,496 - AUC:0.9526+-0.0003 [0.9523240280993343, 0.9529001292626985]
+2023-04-04 17:08:04,496 - AP:0.9509+-0.0068 [0.9441519912940428, 0.9576848409100743]
+2023-04-04 17:08:04,603 - Epoch:000, train_loss:16.6432, val_auc:0.8199, val_ap: 0.8526, text_auc:0.7817, text_ap: 0.8380
+2023-04-04 17:08:04,657 - Epoch:001, train_loss:16.4139, val_auc:0.8427, val_ap: 0.8700, text_auc:0.8060, text_ap: 0.8558
+2023-04-04 17:08:04,698 - Epoch:002, train_loss:16.6931, val_auc:0.8512, val_ap: 0.8773, text_auc:0.8182, text_ap: 0.8642
+2023-04-04 17:08:04,752 - Epoch:003, train_loss:16.1136, val_auc:0.8569, val_ap: 0.8816, text_auc:0.8261, text_ap: 0.8700
+2023-04-04 17:08:04,792 - Epoch:004, train_loss:15.3276, val_auc:0.8608, val_ap: 0.8845, text_auc:0.8314, text_ap: 0.8738
+2023-04-04 17:08:04,848 - Epoch:005, train_loss:15.5716, val_auc:0.8637, val_ap: 0.8869, text_auc:0.8353, text_ap: 0.8764
+2023-04-04 17:08:04,894 - Epoch:006, train_loss:14.5563, val_auc:0.8661, val_ap: 0.8888, text_auc:0.8385, text_ap: 0.8787
+2023-04-04 17:08:04,953 - Epoch:007, train_loss:14.6578, val_auc:0.8681, val_ap: 0.8903, text_auc:0.8408, text_ap: 0.8803
+2023-04-04 17:08:05,006 - Epoch:008, train_loss:14.0567, val_auc:0.8701, val_ap: 0.8919, text_auc:0.8429, text_ap: 0.8816
+2023-04-04 17:08:05,058 - Epoch:009, train_loss:14.2254, val_auc:0.8718, val_ap: 0.8931, text_auc:0.8449, text_ap: 0.8831
+2023-04-04 17:08:05,118 - Epoch:010, train_loss:13.6757, val_auc:0.8734, val_ap: 0.8943, text_auc:0.8467, text_ap: 0.8843
+2023-04-04 17:08:05,166 - Epoch:011, train_loss:13.7724, val_auc:0.8750, val_ap: 0.8955, text_auc:0.8486, text_ap: 0.8858
+2023-04-04 17:08:05,216 - Epoch:012, train_loss:13.2882, val_auc:0.8767, val_ap: 0.8968, text_auc:0.8503, text_ap: 0.8870
+2023-04-04 17:08:05,266 - Epoch:013, train_loss:13.0984, val_auc:0.8784, val_ap: 0.8981, text_auc:0.8517, text_ap: 0.8879
+2023-04-04 17:08:05,318 - Epoch:014, train_loss:12.8724, val_auc:0.8803, val_ap: 0.8996, text_auc:0.8535, text_ap: 0.8892
+2023-04-04 17:08:05,371 - Epoch:015, train_loss:12.1440, val_auc:0.8819, val_ap: 0.9007, text_auc:0.8550, text_ap: 0.8903
+2023-04-04 17:08:05,418 - Epoch:016, train_loss:12.3285, val_auc:0.8840, val_ap: 0.9024, text_auc:0.8568, text_ap: 0.8916
+2023-04-04 17:08:05,470 - Epoch:017, train_loss:11.7959, val_auc:0.8856, val_ap: 0.9036, text_auc:0.8589, text_ap: 0.8931
+2023-04-04 17:08:05,525 - Epoch:018, train_loss:11.9509, val_auc:0.8876, val_ap: 0.9051, text_auc:0.8609, text_ap: 0.8945
+2023-04-04 17:08:05,580 - Epoch:019, train_loss:11.7214, val_auc:0.8900, val_ap: 0.9069, text_auc:0.8630, text_ap: 0.8959
+2023-04-04 17:08:05,632 - Epoch:020, train_loss:11.1189, val_auc:0.8926, val_ap: 0.9089, text_auc:0.8654, text_ap: 0.8976
+2023-04-04 17:08:05,681 - Epoch:021, train_loss:10.8999, val_auc:0.8954, val_ap: 0.9109, text_auc:0.8685, text_ap: 0.8998
+2023-04-04 17:08:05,731 - Epoch:022, train_loss:10.8921, val_auc:0.8979, val_ap: 0.9127, text_auc:0.8719, text_ap: 0.9021
+2023-04-04 17:08:05,779 - Epoch:023, train_loss:10.4670, val_auc:0.9015, val_ap: 0.9151, text_auc:0.8758, text_ap: 0.9047
+2023-04-04 17:08:05,840 - Epoch:024, train_loss:10.1112, val_auc:0.9062, val_ap: 0.9182, text_auc:0.8809, text_ap: 0.9082
+2023-04-04 17:08:05,896 - Epoch:025, train_loss:9.5983, val_auc:0.9117, val_ap: 0.9220, text_auc:0.8878, text_ap: 0.9127
+2023-04-04 17:08:05,950 - Epoch:026, train_loss:9.6096, val_auc:0.9193, val_ap: 0.9273, text_auc:0.8971, text_ap: 0.9189
+2023-04-04 17:08:06,019 - Epoch:027, train_loss:8.8524, val_auc:0.9295, val_ap: 0.9343, text_auc:0.9102, text_ap: 0.9277
+2023-04-04 17:08:06,072 - Epoch:028, train_loss:8.4697, val_auc:0.9428, val_ap: 0.9445, text_auc:0.9271, text_ap: 0.9394
+2023-04-04 17:08:06,133 - Epoch:029, train_loss:7.5413, val_auc:0.9505, val_ap: 0.9518, text_auc:0.9398, text_ap: 0.9483
+2023-04-04 17:08:06,184 - Epoch:030, train_loss:6.8855, val_auc:0.9531, val_ap: 0.9551, text_auc:0.9449, text_ap: 0.9512
+2023-04-04 17:08:06,235 - Epoch:031, train_loss:6.2527, val_auc:0.9535, val_ap: 0.9555, text_auc:0.9467, text_ap: 0.9522
+2023-04-04 17:08:06,261 - Epoch:032, train_loss:6.1434, val_auc:0.9533, val_ap: 0.9553
+2023-04-04 17:08:06,303 - Epoch:033, train_loss:6.3874, val_auc:0.9525, val_ap: 0.9546
+2023-04-04 17:08:06,337 - Epoch:034, train_loss:5.7717, val_auc:0.9522, val_ap: 0.9545
+2023-04-04 17:08:06,367 - Epoch:035, train_loss:5.7829, val_auc:0.9521, val_ap: 0.9547
+2023-04-04 17:08:06,413 - Epoch:036, train_loss:5.5249, val_auc:0.9518, val_ap: 0.9549
+2023-04-04 17:08:06,451 - Epoch:037, train_loss:5.2130, val_auc:0.9511, val_ap: 0.9549
+2023-04-04 17:08:06,482 - Epoch:038, train_loss:5.1994, val_auc:0.9515, val_ap: 0.9551
+2023-04-04 17:08:06,516 - Epoch:039, train_loss:4.7955, val_auc:0.9520, val_ap: 0.9555
+2023-04-04 17:08:06,558 - Epoch:040, train_loss:4.4844, val_auc:0.9526, val_ap: 0.9558
+2023-04-04 17:08:06,593 - Epoch:041, train_loss:4.3937, val_auc:0.9523, val_ap: 0.9551
+2023-04-04 17:08:06,623 - Epoch:042, train_loss:4.3623, val_auc:0.9517, val_ap: 0.9544
+2023-04-04 17:08:06,664 - Epoch:043, train_loss:4.1872, val_auc:0.9506, val_ap: 0.9532
+2023-04-04 17:08:06,696 - Epoch:044, train_loss:4.1229, val_auc:0.9493, val_ap: 0.9520
+2023-04-04 17:08:06,725 - Epoch:045, train_loss:4.0148, val_auc:0.9487, val_ap: 0.9515
+2023-04-04 17:08:06,764 - Epoch:046, train_loss:4.0543, val_auc:0.9486, val_ap: 0.9514
+2023-04-04 17:08:06,797 - Epoch:047, train_loss:3.6939, val_auc:0.9486, val_ap: 0.9516
+2023-04-04 17:08:06,827 - Epoch:048, train_loss:3.5242, val_auc:0.9486, val_ap: 0.9520
+2023-04-04 17:08:06,871 - Epoch:049, train_loss:3.4794, val_auc:0.9483, val_ap: 0.9519
+2023-04-04 17:08:06,906 - Epoch:050, train_loss:3.5062, val_auc:0.9480, val_ap: 0.9521
+2023-04-04 17:08:06,936 - Epoch:051, train_loss:3.4401, val_auc:0.9475, val_ap: 0.9518
+2023-04-04 17:08:06,981 - Epoch:052, train_loss:3.2874, val_auc:0.9473, val_ap: 0.9517
+2023-04-04 17:08:07,011 - Epoch:053, train_loss:3.3001, val_auc:0.9473, val_ap: 0.9517
+2023-04-04 17:08:07,052 - Epoch:054, train_loss:3.1447, val_auc:0.9477, val_ap: 0.9521
+2023-04-04 17:08:07,083 - Epoch:055, train_loss:2.9820, val_auc:0.9482, val_ap: 0.9524
+2023-04-04 17:08:07,110 - Epoch:056, train_loss:2.9408, val_auc:0.9485, val_ap: 0.9525
+2023-04-04 17:08:07,133 - Epoch:057, train_loss:2.8882, val_auc:0.9482, val_ap: 0.9520
+2023-04-04 17:08:07,172 - Epoch:058, train_loss:2.7486, val_auc:0.9477, val_ap: 0.9514
+2023-04-04 17:08:07,202 - Epoch:059, train_loss:2.8047, val_auc:0.9479, val_ap: 0.9516
+2023-04-04 17:08:07,228 - Epoch:060, train_loss:2.7655, val_auc:0.9478, val_ap: 0.9515
+2023-04-04 17:08:07,258 - Epoch:061, train_loss:2.6585, val_auc:0.9478, val_ap: 0.9514
+2023-04-04 17:08:07,295 - Epoch:062, train_loss:2.6423, val_auc:0.9482, val_ap: 0.9519
+2023-04-04 17:08:07,331 - Epoch:063, train_loss:2.6232, val_auc:0.9482, val_ap: 0.9521
+2023-04-04 17:08:07,386 - Epoch:064, train_loss:2.4964, val_auc:0.9484, val_ap: 0.9525
+2023-04-04 17:08:07,433 - Epoch:065, train_loss:2.5703, val_auc:0.9484, val_ap: 0.9526
+2023-04-04 17:08:07,458 - Epoch:066, train_loss:2.4333, val_auc:0.9484, val_ap: 0.9528
+2023-04-04 17:08:07,483 - Epoch:067, train_loss:2.4191, val_auc:0.9483, val_ap: 0.9528
+2023-04-04 17:08:07,516 - Epoch:068, train_loss:2.3979, val_auc:0.9486, val_ap: 0.9529
+2023-04-04 17:08:07,547 - Epoch:069, train_loss:2.2916, val_auc:0.9490, val_ap: 0.9533
+2023-04-04 17:08:07,579 - Epoch:070, train_loss:2.2964, val_auc:0.9494, val_ap: 0.9536
+2023-04-04 17:08:07,615 - Epoch:071, train_loss:2.2683, val_auc:0.9499, val_ap: 0.9540
+2023-04-04 17:08:07,635 - Epoch:072, train_loss:2.2079, val_auc:0.9502, val_ap: 0.9541
+2023-04-04 17:08:07,651 - Epoch:073, train_loss:2.1567, val_auc:0.9504, val_ap: 0.9541
+2023-04-04 17:08:07,666 - Epoch:074, train_loss:2.1054, val_auc:0.9506, val_ap: 0.9542
+2023-04-04 17:08:07,699 - Epoch:075, train_loss:2.1409, val_auc:0.9503, val_ap: 0.9540
+2023-04-04 17:08:07,719 - Epoch:076, train_loss:2.0854, val_auc:0.9504, val_ap: 0.9541
+2023-04-04 17:08:07,747 - Epoch:077, train_loss:2.1107, val_auc:0.9504, val_ap: 0.9543
+2023-04-04 17:08:07,766 - Epoch:078, train_loss:2.0619, val_auc:0.9503, val_ap: 0.9544
+2023-04-04 17:08:07,800 - Epoch:079, train_loss:2.0502, val_auc:0.9504, val_ap: 0.9546
+2023-04-04 17:08:07,826 - Epoch:080, train_loss:1.9793, val_auc:0.9503, val_ap: 0.9545
+2023-04-04 17:08:07,851 - Epoch:081, train_loss:1.9732, val_auc:0.9505, val_ap: 0.9547
+2023-04-04 17:08:07,885 - Epoch:082, train_loss:1.9199, val_auc:0.9508, val_ap: 0.9550
+2023-04-04 17:08:07,925 - Epoch:083, train_loss:1.9158, val_auc:0.9512, val_ap: 0.9552
+2023-04-04 17:08:07,956 - Epoch:084, train_loss:1.9305, val_auc:0.9514, val_ap: 0.9553
+2023-04-04 17:08:07,987 - Epoch:085, train_loss:1.8897, val_auc:0.9514, val_ap: 0.9554
+2023-04-04 17:08:08,028 - Epoch:086, train_loss:1.8230, val_auc:0.9518, val_ap: 0.9557
+2023-04-04 17:08:08,061 - Epoch:087, train_loss:1.8944, val_auc:0.9522, val_ap: 0.9560
+2023-04-04 17:08:08,091 - Epoch:088, train_loss:1.8435, val_auc:0.9526, val_ap: 0.9562
+2023-04-04 17:08:08,146 - Epoch:089, train_loss:1.8314, val_auc:0.9530, val_ap: 0.9565, text_auc:0.9453, text_ap: 0.9481
+2023-04-04 17:08:08,191 - Epoch:090, train_loss:1.7678, val_auc:0.9531, val_ap: 0.9566, text_auc:0.9454, text_ap: 0.9481
+2023-04-04 17:08:08,226 - Epoch:091, train_loss:1.7841, val_auc:0.9529, val_ap: 0.9565
+2023-04-04 17:08:08,252 - Epoch:092, train_loss:1.8013, val_auc:0.9529, val_ap: 0.9564
+2023-04-04 17:08:08,285 - Epoch:093, train_loss:1.7134, val_auc:0.9529, val_ap: 0.9566
+2023-04-04 17:08:08,328 - Epoch:094, train_loss:1.7485, val_auc:0.9529, val_ap: 0.9566
+2023-04-04 17:08:08,392 - Epoch:095, train_loss:1.7030, val_auc:0.9532, val_ap: 0.9568, text_auc:0.9457, text_ap: 0.9481
+2023-04-04 17:08:08,448 - Epoch:096, train_loss:1.7178, val_auc:0.9536, val_ap: 0.9571, text_auc:0.9459, text_ap: 0.9482
+2023-04-04 17:08:08,499 - Epoch:097, train_loss:1.6491, val_auc:0.9537, val_ap: 0.9572, text_auc:0.9461, text_ap: 0.9484
+2023-04-04 17:08:08,553 - Epoch:098, train_loss:1.6600, val_auc:0.9541, val_ap: 0.9576, text_auc:0.9463, text_ap: 0.9486
+2023-04-04 17:08:08,599 - Epoch:099, train_loss:1.6597, val_auc:0.9542, val_ap: 0.9578, text_auc:0.9464, text_ap: 0.9487
+2023-04-04 17:08:08,649 - Epoch:100, train_loss:1.7239, val_auc:0.9545, val_ap: 0.9580, text_auc:0.9464, text_ap: 0.9488
+2023-04-04 17:08:08,693 - Epoch:101, train_loss:1.6351, val_auc:0.9545, val_ap: 0.9581, text_auc:0.9465, text_ap: 0.9489
+2023-04-04 17:08:08,736 - Epoch:102, train_loss:1.6701, val_auc:0.9549, val_ap: 0.9583, text_auc:0.9466, text_ap: 0.9489
+2023-04-04 17:08:08,760 - Epoch:103, train_loss:1.6277, val_auc:0.9548, val_ap: 0.9582
+2023-04-04 17:08:08,811 - Epoch:104, train_loss:1.6483, val_auc:0.9549, val_ap: 0.9583, text_auc:0.9467, text_ap: 0.9490
+2023-04-04 17:08:08,867 - Epoch:105, train_loss:1.5953, val_auc:0.9551, val_ap: 0.9584, text_auc:0.9469, text_ap: 0.9491
+2023-04-04 17:08:08,900 - Epoch:106, train_loss:1.6383, val_auc:0.9551, val_ap: 0.9584
+2023-04-04 17:08:08,964 - Epoch:107, train_loss:1.5799, val_auc:0.9552, val_ap: 0.9584, text_auc:0.9473, text_ap: 0.9494
+2023-04-04 17:08:09,005 - Epoch:108, train_loss:1.5912, val_auc:0.9554, val_ap: 0.9588, text_auc:0.9476, text_ap: 0.9495
+2023-04-04 17:08:09,051 - Epoch:109, train_loss:1.6092, val_auc:0.9555, val_ap: 0.9589, text_auc:0.9477, text_ap: 0.9495
+2023-04-04 17:08:09,072 - Epoch:110, train_loss:1.5620, val_auc:0.9552, val_ap: 0.9587
+2023-04-04 17:08:09,094 - Epoch:111, train_loss:1.5227, val_auc:0.9552, val_ap: 0.9587
+2023-04-04 17:08:09,131 - Epoch:112, train_loss:1.5118, val_auc:0.9551, val_ap: 0.9587
+2023-04-04 17:08:09,158 - Epoch:113, train_loss:1.4607, val_auc:0.9548, val_ap: 0.9586
+2023-04-04 17:08:09,188 - Epoch:114, train_loss:1.5010, val_auc:0.9551, val_ap: 0.9586
+2023-04-04 17:08:09,247 - Epoch:115, train_loss:1.4916, val_auc:0.9555, val_ap: 0.9590, text_auc:0.9476, text_ap: 0.9498
+2023-04-04 17:08:09,292 - Epoch:116, train_loss:1.5249, val_auc:0.9558, val_ap: 0.9592, text_auc:0.9478, text_ap: 0.9499
+2023-04-04 17:08:09,341 - Epoch:117, train_loss:1.4858, val_auc:0.9561, val_ap: 0.9594, text_auc:0.9483, text_ap: 0.9503
+2023-04-04 17:08:09,391 - Epoch:118, train_loss:1.4708, val_auc:0.9566, val_ap: 0.9598, text_auc:0.9488, text_ap: 0.9506
+2023-04-04 17:08:09,445 - Epoch:119, train_loss:1.4447, val_auc:0.9568, val_ap: 0.9600, text_auc:0.9491, text_ap: 0.9508
+2023-04-04 17:08:09,491 - Epoch:120, train_loss:1.4503, val_auc:0.9570, val_ap: 0.9601, text_auc:0.9492, text_ap: 0.9509
+2023-04-04 17:08:09,541 - Epoch:121, train_loss:1.4545, val_auc:0.9571, val_ap: 0.9603, text_auc:0.9492, text_ap: 0.9508
+2023-04-04 17:08:09,572 - Epoch:122, train_loss:1.4495, val_auc:0.9571, val_ap: 0.9603
+2023-04-04 17:08:09,614 - Epoch:123, train_loss:1.4213, val_auc:0.9570, val_ap: 0.9602
+2023-04-04 17:08:09,657 - Epoch:124, train_loss:1.4297, val_auc:0.9571, val_ap: 0.9603
+2023-04-04 17:08:09,690 - Epoch:125, train_loss:1.4298, val_auc:0.9569, val_ap: 0.9601
+2023-04-04 17:08:09,730 - Epoch:126, train_loss:1.4490, val_auc:0.9569, val_ap: 0.9601
+2023-04-04 17:08:09,765 - Epoch:127, train_loss:1.3729, val_auc:0.9569, val_ap: 0.9601
+2023-04-04 17:08:09,803 - Epoch:128, train_loss:1.3920, val_auc:0.9570, val_ap: 0.9601
+2023-04-04 17:08:09,843 - Epoch:129, train_loss:1.4025, val_auc:0.9569, val_ap: 0.9601
+2023-04-04 17:08:09,878 - Epoch:130, train_loss:1.3860, val_auc:0.9575, val_ap: 0.9604, text_auc:0.9499, text_ap: 0.9517
+2023-04-04 17:08:09,937 - Epoch:131, train_loss:1.3442, val_auc:0.9579, val_ap: 0.9607, text_auc:0.9504, text_ap: 0.9521
+2023-04-04 17:08:09,987 - Epoch:132, train_loss:1.3573, val_auc:0.9584, val_ap: 0.9611, text_auc:0.9506, text_ap: 0.9523
+2023-04-04 17:08:10,041 - Epoch:133, train_loss:1.3278, val_auc:0.9585, val_ap: 0.9612, text_auc:0.9508, text_ap: 0.9524
+2023-04-04 17:08:10,094 - Epoch:134, train_loss:1.3963, val_auc:0.9589, val_ap: 0.9614, text_auc:0.9508, text_ap: 0.9525
+2023-04-04 17:08:10,137 - Epoch:135, train_loss:1.3663, val_auc:0.9591, val_ap: 0.9616, text_auc:0.9508, text_ap: 0.9525
+2023-04-04 17:08:10,197 - Epoch:136, train_loss:1.3436, val_auc:0.9592, val_ap: 0.9617, text_auc:0.9507, text_ap: 0.9525
+2023-04-04 17:08:10,226 - Epoch:137, train_loss:1.3747, val_auc:0.9591, val_ap: 0.9617
+2023-04-04 17:08:10,266 - Epoch:138, train_loss:1.3280, val_auc:0.9590, val_ap: 0.9617
+2023-04-04 17:08:10,300 - Epoch:139, train_loss:1.3419, val_auc:0.9589, val_ap: 0.9617
+2023-04-04 17:08:10,331 - Epoch:140, train_loss:1.3419, val_auc:0.9587, val_ap: 0.9616
+2023-04-04 17:08:10,363 - Epoch:141, train_loss:1.3190, val_auc:0.9586, val_ap: 0.9617
+2023-04-04 17:08:10,408 - Epoch:142, train_loss:1.3128, val_auc:0.9586, val_ap: 0.9616
+2023-04-04 17:08:10,442 - Epoch:143, train_loss:1.3122, val_auc:0.9588, val_ap: 0.9618
+2023-04-04 17:08:10,467 - Epoch:144, train_loss:1.3043, val_auc:0.9590, val_ap: 0.9618
+2023-04-04 17:08:10,518 - Epoch:145, train_loss:1.2518, val_auc:0.9596, val_ap: 0.9621, text_auc:0.9509, text_ap: 0.9528
+2023-04-04 17:08:10,568 - Epoch:146, train_loss:1.3093, val_auc:0.9599, val_ap: 0.9623, text_auc:0.9511, text_ap: 0.9530
+2023-04-04 17:08:10,624 - Epoch:147, train_loss:1.3020, val_auc:0.9601, val_ap: 0.9623, text_auc:0.9513, text_ap: 0.9532
+2023-04-04 17:08:10,665 - Epoch:148, train_loss:1.3043, val_auc:0.9603, val_ap: 0.9624, text_auc:0.9515, text_ap: 0.9534
+2023-04-04 17:08:10,734 - Epoch:149, train_loss:1.2703, val_auc:0.9603, val_ap: 0.9625, text_auc:0.9514, text_ap: 0.9534
+2023-04-04 17:08:10,768 - Epoch:150, train_loss:1.3218, val_auc:0.9602, val_ap: 0.9625
+2023-04-04 17:08:10,805 - Epoch:151, train_loss:1.2402, val_auc:0.9600, val_ap: 0.9624
+2023-04-04 17:08:10,839 - Epoch:152, train_loss:1.2979, val_auc:0.9599, val_ap: 0.9625
+2023-04-04 17:08:10,881 - Epoch:153, train_loss:1.2547, val_auc:0.9597, val_ap: 0.9625
+2023-04-04 17:08:10,915 - Epoch:154, train_loss:1.2770, val_auc:0.9596, val_ap: 0.9626
+2023-04-04 17:08:10,947 - Epoch:155, train_loss:1.2307, val_auc:0.9596, val_ap: 0.9626
+2023-04-04 17:08:10,987 - Epoch:156, train_loss:1.2673, val_auc:0.9597, val_ap: 0.9626
+2023-04-04 17:08:11,019 - Epoch:157, train_loss:1.2443, val_auc:0.9600, val_ap: 0.9627
+2023-04-04 17:08:11,074 - Epoch:158, train_loss:1.2395, val_auc:0.9607, val_ap: 0.9632, text_auc:0.9508, text_ap: 0.9531
+2023-04-04 17:08:11,124 - Epoch:159, train_loss:1.2414, val_auc:0.9610, val_ap: 0.9633, text_auc:0.9513, text_ap: 0.9535
+2023-04-04 17:08:11,177 - Epoch:160, train_loss:1.2398, val_auc:0.9615, val_ap: 0.9637, text_auc:0.9516, text_ap: 0.9538
+2023-04-04 17:08:11,230 - Epoch:161, train_loss:1.2153, val_auc:0.9618, val_ap: 0.9638, text_auc:0.9519, text_ap: 0.9540
+2023-04-04 17:08:11,277 - Epoch:162, train_loss:1.2021, val_auc:0.9620, val_ap: 0.9640, text_auc:0.9520, text_ap: 0.9542
+2023-04-04 17:08:11,337 - Epoch:163, train_loss:1.2185, val_auc:0.9619, val_ap: 0.9641, text_auc:0.9520, text_ap: 0.9542
+2023-04-04 17:08:11,361 - Epoch:164, train_loss:1.2292, val_auc:0.9615, val_ap: 0.9639
+2023-04-04 17:08:11,391 - Epoch:165, train_loss:1.2254, val_auc:0.9611, val_ap: 0.9637
+2023-04-04 17:08:11,426 - Epoch:166, train_loss:1.2065, val_auc:0.9609, val_ap: 0.9636
+2023-04-04 17:08:11,456 - Epoch:167, train_loss:1.2040, val_auc:0.9605, val_ap: 0.9634
+2023-04-04 17:08:11,485 - Epoch:168, train_loss:1.1985, val_auc:0.9607, val_ap: 0.9636
+2023-04-04 17:08:11,530 - Epoch:169, train_loss:1.1793, val_auc:0.9609, val_ap: 0.9636
+2023-04-04 17:08:11,573 - Epoch:170, train_loss:1.1922, val_auc:0.9613, val_ap: 0.9639
+2023-04-04 17:08:11,622 - Epoch:171, train_loss:1.2100, val_auc:0.9620, val_ap: 0.9643, text_auc:0.9515, text_ap: 0.9540
+2023-04-04 17:08:11,680 - Epoch:172, train_loss:1.1915, val_auc:0.9623, val_ap: 0.9646, text_auc:0.9515, text_ap: 0.9541
+2023-04-04 17:08:11,723 - Epoch:173, train_loss:1.1845, val_auc:0.9626, val_ap: 0.9648, text_auc:0.9517, text_ap: 0.9543
+2023-04-04 17:08:11,775 - Epoch:174, train_loss:1.1957, val_auc:0.9626, val_ap: 0.9648, text_auc:0.9520, text_ap: 0.9545
+2023-04-04 17:08:11,799 - Epoch:175, train_loss:1.1954, val_auc:0.9625, val_ap: 0.9648
+2023-04-04 17:08:11,852 - Epoch:176, train_loss:1.1833, val_auc:0.9622, val_ap: 0.9647
+2023-04-04 17:08:11,891 - Epoch:177, train_loss:1.1677, val_auc:0.9619, val_ap: 0.9645
+2023-04-04 17:08:11,922 - Epoch:178, train_loss:1.1805, val_auc:0.9618, val_ap: 0.9645
+2023-04-04 17:08:11,969 - Epoch:179, train_loss:1.1740, val_auc:0.9621, val_ap: 0.9647
+2023-04-04 17:08:12,004 - Epoch:180, train_loss:1.1497, val_auc:0.9625, val_ap: 0.9649
+2023-04-04 17:08:12,063 - Epoch:181, train_loss:1.1644, val_auc:0.9628, val_ap: 0.9651, text_auc:0.9505, text_ap: 0.9537
+2023-04-04 17:08:12,102 - Epoch:182, train_loss:1.1519, val_auc:0.9628, val_ap: 0.9651
+2023-04-04 17:08:12,144 - Epoch:183, train_loss:1.1486, val_auc:0.9631, val_ap: 0.9654, text_auc:0.9510, text_ap: 0.9542
+2023-04-04 17:08:12,193 - Epoch:184, train_loss:1.1521, val_auc:0.9634, val_ap: 0.9656, text_auc:0.9513, text_ap: 0.9545
+2023-04-04 17:08:12,221 - Epoch:185, train_loss:1.1429, val_auc:0.9632, val_ap: 0.9655
+2023-04-04 17:08:12,272 - Epoch:186, train_loss:1.1520, val_auc:0.9630, val_ap: 0.9654
+2023-04-04 17:08:12,311 - Epoch:187, train_loss:1.1419, val_auc:0.9629, val_ap: 0.9653
+2023-04-04 17:08:12,358 - Epoch:188, train_loss:1.1449, val_auc:0.9628, val_ap: 0.9651
+2023-04-04 17:08:12,394 - Epoch:189, train_loss:1.1446, val_auc:0.9629, val_ap: 0.9652
+2023-04-04 17:08:12,432 - Epoch:190, train_loss:1.1441, val_auc:0.9631, val_ap: 0.9653
+2023-04-04 17:08:12,463 - Epoch:191, train_loss:1.1612, val_auc:0.9630, val_ap: 0.9654
+2023-04-04 17:08:12,495 - Epoch:192, train_loss:1.1377, val_auc:0.9628, val_ap: 0.9653
+2023-04-04 17:08:12,531 - Epoch:193, train_loss:1.1383, val_auc:0.9628, val_ap: 0.9653
+2023-04-04 17:08:12,564 - Epoch:194, train_loss:1.1421, val_auc:0.9630, val_ap: 0.9655
+2023-04-04 17:08:12,607 - Epoch:195, train_loss:1.1472, val_auc:0.9629, val_ap: 0.9656
+2023-04-04 17:08:12,645 - Epoch:196, train_loss:1.1070, val_auc:0.9630, val_ap: 0.9657
+2023-04-04 17:08:12,688 - Epoch:197, train_loss:1.1180, val_auc:0.9630, val_ap: 0.9657
+2023-04-04 17:08:12,736 - Epoch:198, train_loss:1.0985, val_auc:0.9631, val_ap: 0.9657
+2023-04-04 17:08:12,790 - Epoch:199, train_loss:1.1063, val_auc:0.9632, val_ap: 0.9658, text_auc:0.9506, text_ap: 0.9545
+2023-04-04 17:08:12,791 - final results:
+2023-04-04 17:08:12,791 - ====================================================================================
+2023-04-04 17:08:12,791 - AUC:0.9520+-0.0010 [0.9523240280993343, 0.9529001292626985, 0.9506353315642228]
+2023-04-04 17:08:12,792 - AP:0.9521+-0.0058 [0.9441519912940428, 0.9576848409100743, 0.9545052441794399]
+2023-04-04 17:08:12,938 - Epoch:000, train_loss:16.5197, val_auc:0.8254, val_ap: 0.8624, text_auc:0.8076, text_ap: 0.8520
+2023-04-04 17:08:12,988 - Epoch:001, train_loss:16.2218, val_auc:0.8501, val_ap: 0.8792, text_auc:0.8324, text_ap: 0.8691
+2023-04-04 17:08:13,043 - Epoch:002, train_loss:16.3312, val_auc:0.8605, val_ap: 0.8860, text_auc:0.8434, text_ap: 0.8766
+2023-04-04 17:08:13,086 - Epoch:003, train_loss:15.7732, val_auc:0.8671, val_ap: 0.8903, text_auc:0.8504, text_ap: 0.8813
+2023-04-04 17:08:13,122 - Epoch:004, train_loss:15.8659, val_auc:0.8713, val_ap: 0.8934, text_auc:0.8547, text_ap: 0.8845
+2023-04-04 17:08:13,169 - Epoch:005, train_loss:15.5409, val_auc:0.8750, val_ap: 0.8958, text_auc:0.8584, text_ap: 0.8872
+2023-04-04 17:08:13,213 - Epoch:006, train_loss:14.2102, val_auc:0.8774, val_ap: 0.8972, text_auc:0.8612, text_ap: 0.8892
+2023-04-04 17:08:13,264 - Epoch:007, train_loss:14.3364, val_auc:0.8795, val_ap: 0.8985, text_auc:0.8635, text_ap: 0.8909
+2023-04-04 17:08:13,319 - Epoch:008, train_loss:14.3248, val_auc:0.8813, val_ap: 0.8997, text_auc:0.8654, text_ap: 0.8922
+2023-04-04 17:08:13,378 - Epoch:009, train_loss:13.9386, val_auc:0.8835, val_ap: 0.9014, text_auc:0.8671, text_ap: 0.8934
+2023-04-04 17:08:13,438 - Epoch:010, train_loss:13.9830, val_auc:0.8847, val_ap: 0.9023, text_auc:0.8687, text_ap: 0.8946
+2023-04-04 17:08:13,504 - Epoch:011, train_loss:13.7896, val_auc:0.8861, val_ap: 0.9035, text_auc:0.8703, text_ap: 0.8958
+2023-04-04 17:08:13,570 - Epoch:012, train_loss:13.3083, val_auc:0.8873, val_ap: 0.9045, text_auc:0.8719, text_ap: 0.8970
+2023-04-04 17:08:13,640 - Epoch:013, train_loss:13.4439, val_auc:0.8886, val_ap: 0.9056, text_auc:0.8735, text_ap: 0.8982
+2023-04-04 17:08:13,696 - Epoch:014, train_loss:12.8453, val_auc:0.8897, val_ap: 0.9065, text_auc:0.8750, text_ap: 0.8992
+2023-04-04 17:08:13,748 - Epoch:015, train_loss:12.9346, val_auc:0.8909, val_ap: 0.9075, text_auc:0.8765, text_ap: 0.9003
+2023-04-04 17:08:13,804 - Epoch:016, train_loss:12.2461, val_auc:0.8923, val_ap: 0.9089, text_auc:0.8783, text_ap: 0.9015
+2023-04-04 17:08:13,850 - Epoch:017, train_loss:12.1285, val_auc:0.8937, val_ap: 0.9100, text_auc:0.8803, text_ap: 0.9027
+2023-04-04 17:08:13,919 - Epoch:018, train_loss:11.9150, val_auc:0.8951, val_ap: 0.9111, text_auc:0.8822, text_ap: 0.9040
+2023-04-04 17:08:13,984 - Epoch:019, train_loss:11.2816, val_auc:0.8969, val_ap: 0.9127, text_auc:0.8844, text_ap: 0.9055
+2023-04-04 17:08:14,021 - Epoch:020, train_loss:11.1214, val_auc:0.8986, val_ap: 0.9145, text_auc:0.8869, text_ap: 0.9071
+2023-04-04 17:08:14,087 - Epoch:021, train_loss:10.9487, val_auc:0.9007, val_ap: 0.9163, text_auc:0.8898, text_ap: 0.9091
+2023-04-04 17:08:14,143 - Epoch:022, train_loss:10.6793, val_auc:0.9030, val_ap: 0.9184, text_auc:0.8930, text_ap: 0.9112
+2023-04-04 17:08:14,204 - Epoch:023, train_loss:10.4212, val_auc:0.9058, val_ap: 0.9209, text_auc:0.8968, text_ap: 0.9138
+2023-04-04 17:08:14,260 - Epoch:024, train_loss:10.1986, val_auc:0.9090, val_ap: 0.9238, text_auc:0.9017, text_ap: 0.9172
+2023-04-04 17:08:14,307 - Epoch:025, train_loss:9.6592, val_auc:0.9133, val_ap: 0.9274, text_auc:0.9084, text_ap: 0.9217
+2023-04-04 17:08:14,366 - Epoch:026, train_loss:9.3192, val_auc:0.9199, val_ap: 0.9327, text_auc:0.9169, text_ap: 0.9274
+2023-04-04 17:08:14,439 - Epoch:027, train_loss:9.0153, val_auc:0.9288, val_ap: 0.9399, text_auc:0.9271, text_ap: 0.9347
+2023-04-04 17:08:14,497 - Epoch:028, train_loss:8.6510, val_auc:0.9392, val_ap: 0.9469, text_auc:0.9360, text_ap: 0.9407
+2023-04-04 17:08:14,557 - Epoch:029, train_loss:7.9140, val_auc:0.9474, val_ap: 0.9523, text_auc:0.9415, text_ap: 0.9445
+2023-04-04 17:08:14,615 - Epoch:030, train_loss:7.2725, val_auc:0.9498, val_ap: 0.9540, text_auc:0.9440, text_ap: 0.9468
+2023-04-04 17:08:14,680 - Epoch:031, train_loss:6.6171, val_auc:0.9510, val_ap: 0.9549, text_auc:0.9455, text_ap: 0.9483
+2023-04-04 17:08:14,727 - Epoch:032, train_loss:6.5915, val_auc:0.9519, val_ap: 0.9553, text_auc:0.9462, text_ap: 0.9490
+2023-04-04 17:08:14,771 - Epoch:033, train_loss:6.3204, val_auc:0.9512, val_ap: 0.9551
+2023-04-04 17:08:14,805 - Epoch:034, train_loss:5.9308, val_auc:0.9493, val_ap: 0.9533
+2023-04-04 17:08:14,839 - Epoch:035, train_loss:5.7952, val_auc:0.9487, val_ap: 0.9527
+2023-04-04 17:08:14,898 - Epoch:036, train_loss:5.4988, val_auc:0.9483, val_ap: 0.9526
+2023-04-04 17:08:14,935 - Epoch:037, train_loss:5.4217, val_auc:0.9486, val_ap: 0.9530
+2023-04-04 17:08:14,978 - Epoch:038, train_loss:5.1859, val_auc:0.9492, val_ap: 0.9537
+2023-04-04 17:08:15,011 - Epoch:039, train_loss:4.7913, val_auc:0.9497, val_ap: 0.9543
+2023-04-04 17:08:15,050 - Epoch:040, train_loss:4.7085, val_auc:0.9497, val_ap: 0.9540
+2023-04-04 17:08:15,097 - Epoch:041, train_loss:4.5535, val_auc:0.9496, val_ap: 0.9539
+2023-04-04 17:08:15,125 - Epoch:042, train_loss:4.4382, val_auc:0.9501, val_ap: 0.9545
+2023-04-04 17:08:15,166 - Epoch:043, train_loss:4.3604, val_auc:0.9501, val_ap: 0.9548
+2023-04-04 17:08:15,204 - Epoch:044, train_loss:4.2689, val_auc:0.9502, val_ap: 0.9551
+2023-04-04 17:08:15,253 - Epoch:045, train_loss:4.0753, val_auc:0.9498, val_ap: 0.9550
+2023-04-04 17:08:15,296 - Epoch:046, train_loss:3.9000, val_auc:0.9493, val_ap: 0.9547
+2023-04-04 17:08:15,332 - Epoch:047, train_loss:3.9977, val_auc:0.9485, val_ap: 0.9541
+2023-04-04 17:08:15,371 - Epoch:048, train_loss:3.5812, val_auc:0.9471, val_ap: 0.9531
+2023-04-04 17:08:15,431 - Epoch:049, train_loss:3.6673, val_auc:0.9459, val_ap: 0.9522
+2023-04-04 17:08:15,475 - Epoch:050, train_loss:3.3556, val_auc:0.9455, val_ap: 0.9519
+2023-04-04 17:08:15,503 - Epoch:051, train_loss:3.3591, val_auc:0.9452, val_ap: 0.9516
+2023-04-04 17:08:15,546 - Epoch:052, train_loss:3.2837, val_auc:0.9452, val_ap: 0.9516
+2023-04-04 17:08:15,582 - Epoch:053, train_loss:3.2606, val_auc:0.9455, val_ap: 0.9518
+2023-04-04 17:08:15,606 - Epoch:054, train_loss:3.0926, val_auc:0.9460, val_ap: 0.9520
+2023-04-04 17:08:15,661 - Epoch:055, train_loss:3.0917, val_auc:0.9465, val_ap: 0.9524
+2023-04-04 17:08:15,697 - Epoch:056, train_loss:2.9711, val_auc:0.9466, val_ap: 0.9525
+2023-04-04 17:08:15,731 - Epoch:057, train_loss:2.9706, val_auc:0.9464, val_ap: 0.9526
+2023-04-04 17:08:15,775 - Epoch:058, train_loss:2.8689, val_auc:0.9467, val_ap: 0.9528
+2023-04-04 17:08:15,811 - Epoch:059, train_loss:2.7211, val_auc:0.9470, val_ap: 0.9530
+2023-04-04 17:08:15,847 - Epoch:060, train_loss:2.7497, val_auc:0.9470, val_ap: 0.9531
+2023-04-04 17:08:15,899 - Epoch:061, train_loss:2.6162, val_auc:0.9471, val_ap: 0.9531
+2023-04-04 17:08:15,927 - Epoch:062, train_loss:2.6438, val_auc:0.9471, val_ap: 0.9532
+2023-04-04 17:08:15,968 - Epoch:063, train_loss:2.6338, val_auc:0.9473, val_ap: 0.9535
+2023-04-04 17:08:15,998 - Epoch:064, train_loss:2.4484, val_auc:0.9477, val_ap: 0.9537
+2023-04-04 17:08:16,021 - Epoch:065, train_loss:2.4315, val_auc:0.9480, val_ap: 0.9539
+2023-04-04 17:08:16,049 - Epoch:066, train_loss:2.5105, val_auc:0.9483, val_ap: 0.9541
+2023-04-04 17:08:16,089 - Epoch:067, train_loss:2.4582, val_auc:0.9485, val_ap: 0.9542
+2023-04-04 17:08:16,119 - Epoch:068, train_loss:2.4270, val_auc:0.9483, val_ap: 0.9540
+2023-04-04 17:08:16,155 - Epoch:069, train_loss:2.2495, val_auc:0.9484, val_ap: 0.9539
+2023-04-04 17:08:16,197 - Epoch:070, train_loss:2.3384, val_auc:0.9484, val_ap: 0.9538
+2023-04-04 17:08:16,233 - Epoch:071, train_loss:2.2648, val_auc:0.9485, val_ap: 0.9538
+2023-04-04 17:08:16,270 - Epoch:072, train_loss:2.1505, val_auc:0.9486, val_ap: 0.9538
+2023-04-04 17:08:16,327 - Epoch:073, train_loss:2.1824, val_auc:0.9488, val_ap: 0.9540
+2023-04-04 17:08:16,383 - Epoch:074, train_loss:2.1620, val_auc:0.9489, val_ap: 0.9541
+2023-04-04 17:08:16,421 - Epoch:075, train_loss:2.0891, val_auc:0.9491, val_ap: 0.9544
+2023-04-04 17:08:16,451 - Epoch:076, train_loss:2.1250, val_auc:0.9495, val_ap: 0.9547
+2023-04-04 17:08:16,484 - Epoch:077, train_loss:2.0838, val_auc:0.9499, val_ap: 0.9550
+2023-04-04 17:08:16,536 - Epoch:078, train_loss:2.0972, val_auc:0.9507, val_ap: 0.9555
+2023-04-04 17:08:16,571 - Epoch:079, train_loss:2.0629, val_auc:0.9510, val_ap: 0.9558
+2023-04-04 17:08:16,612 - Epoch:080, train_loss:2.1075, val_auc:0.9510, val_ap: 0.9558
+2023-04-04 17:08:16,659 - Epoch:081, train_loss:2.0107, val_auc:0.9509, val_ap: 0.9557
+2023-04-04 17:08:16,693 - Epoch:082, train_loss:1.9727, val_auc:0.9507, val_ap: 0.9556
+2023-04-04 17:08:16,736 - Epoch:083, train_loss:2.0414, val_auc:0.9511, val_ap: 0.9558
+2023-04-04 17:08:16,766 - Epoch:084, train_loss:1.9158, val_auc:0.9513, val_ap: 0.9559
+2023-04-04 17:08:16,825 - Epoch:085, train_loss:1.9175, val_auc:0.9517, val_ap: 0.9563, text_auc:0.9430, text_ap: 0.9467
+2023-04-04 17:08:16,882 - Epoch:086, train_loss:1.9403, val_auc:0.9518, val_ap: 0.9563, text_auc:0.9431, text_ap: 0.9468
+2023-04-04 17:08:16,958 - Epoch:087, train_loss:1.8460, val_auc:0.9518, val_ap: 0.9564, text_auc:0.9432, text_ap: 0.9468
+2023-04-04 17:08:17,015 - Epoch:088, train_loss:1.8461, val_auc:0.9518, val_ap: 0.9565, text_auc:0.9433, text_ap: 0.9469
+2023-04-04 17:08:17,059 - Epoch:089, train_loss:1.7849, val_auc:0.9518, val_ap: 0.9567, text_auc:0.9435, text_ap: 0.9470
+2023-04-04 17:08:17,120 - Epoch:090, train_loss:1.7509, val_auc:0.9520, val_ap: 0.9568, text_auc:0.9438, text_ap: 0.9473
+2023-04-04 17:08:17,162 - Epoch:091, train_loss:1.7530, val_auc:0.9524, val_ap: 0.9571, text_auc:0.9439, text_ap: 0.9474
+2023-04-04 17:08:17,227 - Epoch:092, train_loss:1.7400, val_auc:0.9527, val_ap: 0.9573, text_auc:0.9441, text_ap: 0.9476
+2023-04-04 17:08:17,267 - Epoch:093, train_loss:1.7332, val_auc:0.9528, val_ap: 0.9574, text_auc:0.9443, text_ap: 0.9478
+2023-04-04 17:08:17,326 - Epoch:094, train_loss:1.7040, val_auc:0.9531, val_ap: 0.9575, text_auc:0.9444, text_ap: 0.9479
+2023-04-04 17:08:17,398 - Epoch:095, train_loss:1.7192, val_auc:0.9533, val_ap: 0.9576, text_auc:0.9447, text_ap: 0.9481
+2023-04-04 17:08:17,470 - Epoch:096, train_loss:1.6863, val_auc:0.9534, val_ap: 0.9576, text_auc:0.9450, text_ap: 0.9483
+2023-04-04 17:08:17,520 - Epoch:097, train_loss:1.7672, val_auc:0.9537, val_ap: 0.9578, text_auc:0.9452, text_ap: 0.9485
+2023-04-04 17:08:17,581 - Epoch:098, train_loss:1.6883, val_auc:0.9540, val_ap: 0.9581, text_auc:0.9454, text_ap: 0.9486
+2023-04-04 17:08:17,625 - Epoch:099, train_loss:1.6360, val_auc:0.9540, val_ap: 0.9582, text_auc:0.9454, text_ap: 0.9485
+2023-04-04 17:08:17,674 - Epoch:100, train_loss:1.6617, val_auc:0.9543, val_ap: 0.9586, text_auc:0.9455, text_ap: 0.9486
+2023-04-04 17:08:17,719 - Epoch:101, train_loss:1.6519, val_auc:0.9542, val_ap: 0.9585
+2023-04-04 17:08:17,763 - Epoch:102, train_loss:1.6633, val_auc:0.9540, val_ap: 0.9585
+2023-04-04 17:08:17,806 - Epoch:103, train_loss:1.6717, val_auc:0.9539, val_ap: 0.9585
+2023-04-04 17:08:17,863 - Epoch:104, train_loss:1.5919, val_auc:0.9541, val_ap: 0.9588, text_auc:0.9451, text_ap: 0.9484
+2023-04-04 17:08:17,920 - Epoch:105, train_loss:1.6051, val_auc:0.9544, val_ap: 0.9590, text_auc:0.9451, text_ap: 0.9485
+2023-04-04 17:08:17,972 - Epoch:106, train_loss:1.6020, val_auc:0.9546, val_ap: 0.9591, text_auc:0.9453, text_ap: 0.9486
+2023-04-04 17:08:18,033 - Epoch:107, train_loss:1.5424, val_auc:0.9549, val_ap: 0.9592, text_auc:0.9456, text_ap: 0.9489
+2023-04-04 17:08:18,090 - Epoch:108, train_loss:1.5542, val_auc:0.9549, val_ap: 0.9593, text_auc:0.9458, text_ap: 0.9492
+2023-04-04 17:08:18,130 - Epoch:109, train_loss:1.5586, val_auc:0.9549, val_ap: 0.9593, text_auc:0.9460, text_ap: 0.9494
+2023-04-04 17:08:18,188 - Epoch:110, train_loss:1.5777, val_auc:0.9553, val_ap: 0.9596, text_auc:0.9462, text_ap: 0.9495
+2023-04-04 17:08:18,234 - Epoch:111, train_loss:1.5341, val_auc:0.9558, val_ap: 0.9600, text_auc:0.9464, text_ap: 0.9497
+2023-04-04 17:08:18,284 - Epoch:112, train_loss:1.5210, val_auc:0.9561, val_ap: 0.9601, text_auc:0.9466, text_ap: 0.9499
+2023-04-04 17:08:18,339 - Epoch:113, train_loss:1.4990, val_auc:0.9562, val_ap: 0.9602, text_auc:0.9468, text_ap: 0.9500
+2023-04-04 17:08:18,406 - Epoch:114, train_loss:1.5133, val_auc:0.9564, val_ap: 0.9604, text_auc:0.9470, text_ap: 0.9501
+2023-04-04 17:08:18,450 - Epoch:115, train_loss:1.4737, val_auc:0.9564, val_ap: 0.9605, text_auc:0.9469, text_ap: 0.9500
+2023-04-04 17:08:18,487 - Epoch:116, train_loss:1.4921, val_auc:0.9564, val_ap: 0.9605
+2023-04-04 17:08:18,533 - Epoch:117, train_loss:1.4320, val_auc:0.9563, val_ap: 0.9606
+2023-04-04 17:08:18,599 - Epoch:118, train_loss:1.4978, val_auc:0.9563, val_ap: 0.9606, text_auc:0.9466, text_ap: 0.9498
+2023-04-04 17:08:18,635 - Epoch:119, train_loss:1.4454, val_auc:0.9563, val_ap: 0.9606
+2023-04-04 17:08:18,679 - Epoch:120, train_loss:1.4082, val_auc:0.9564, val_ap: 0.9607, text_auc:0.9465, text_ap: 0.9499
+2023-04-04 17:08:18,744 - Epoch:121, train_loss:1.4404, val_auc:0.9565, val_ap: 0.9608, text_auc:0.9466, text_ap: 0.9500
+2023-04-04 17:08:18,798 - Epoch:122, train_loss:1.4420, val_auc:0.9568, val_ap: 0.9609, text_auc:0.9468, text_ap: 0.9502
+2023-04-04 17:08:18,861 - Epoch:123, train_loss:1.4026, val_auc:0.9569, val_ap: 0.9610, text_auc:0.9470, text_ap: 0.9504
+2023-04-04 17:08:18,932 - Epoch:124, train_loss:1.4241, val_auc:0.9570, val_ap: 0.9611, text_auc:0.9472, text_ap: 0.9505
+2023-04-04 17:08:18,978 - Epoch:125, train_loss:1.3964, val_auc:0.9570, val_ap: 0.9612, text_auc:0.9473, text_ap: 0.9506
+2023-04-04 17:08:19,027 - Epoch:126, train_loss:1.4648, val_auc:0.9569, val_ap: 0.9610
+2023-04-04 17:08:19,053 - Epoch:127, train_loss:1.3983, val_auc:0.9569, val_ap: 0.9611
+2023-04-04 17:08:19,103 - Epoch:128, train_loss:1.4012, val_auc:0.9570, val_ap: 0.9612
+2023-04-04 17:08:19,139 - Epoch:129, train_loss:1.3891, val_auc:0.9570, val_ap: 0.9612
+2023-04-04 17:08:19,199 - Epoch:130, train_loss:1.3869, val_auc:0.9571, val_ap: 0.9613, text_auc:0.9473, text_ap: 0.9507
+2023-04-04 17:08:19,255 - Epoch:131, train_loss:1.3802, val_auc:0.9573, val_ap: 0.9615, text_auc:0.9473, text_ap: 0.9507
+2023-04-04 17:08:19,305 - Epoch:132, train_loss:1.3720, val_auc:0.9573, val_ap: 0.9615, text_auc:0.9473, text_ap: 0.9507
+2023-04-04 17:08:19,346 - Epoch:133, train_loss:1.3828, val_auc:0.9576, val_ap: 0.9616, text_auc:0.9473, text_ap: 0.9508
+2023-04-04 17:08:19,402 - Epoch:134, train_loss:1.4157, val_auc:0.9578, val_ap: 0.9617, text_auc:0.9475, text_ap: 0.9509
+2023-04-04 17:08:19,459 - Epoch:135, train_loss:1.3737, val_auc:0.9580, val_ap: 0.9619, text_auc:0.9477, text_ap: 0.9511
+2023-04-04 17:08:19,500 - Epoch:136, train_loss:1.3541, val_auc:0.9581, val_ap: 0.9620, text_auc:0.9477, text_ap: 0.9512
+2023-04-04 17:08:19,553 - Epoch:137, train_loss:1.3685, val_auc:0.9583, val_ap: 0.9622, text_auc:0.9478, text_ap: 0.9512
+2023-04-04 17:08:19,591 - Epoch:138, train_loss:1.3530, val_auc:0.9584, val_ap: 0.9623, text_auc:0.9476, text_ap: 0.9512
+2023-04-04 17:08:19,629 - Epoch:139, train_loss:1.3381, val_auc:0.9582, val_ap: 0.9621
+2023-04-04 17:08:19,661 - Epoch:140, train_loss:1.3502, val_auc:0.9579, val_ap: 0.9619
+2023-04-04 17:08:19,699 - Epoch:141, train_loss:1.3075, val_auc:0.9576, val_ap: 0.9617
+2023-04-04 17:08:19,741 - Epoch:142, train_loss:1.2907, val_auc:0.9574, val_ap: 0.9617
+2023-04-04 17:08:19,772 - Epoch:143, train_loss:1.2915, val_auc:0.9574, val_ap: 0.9618
+2023-04-04 17:08:19,819 - Epoch:144, train_loss:1.3074, val_auc:0.9575, val_ap: 0.9618
+2023-04-04 17:08:19,853 - Epoch:145, train_loss:1.2782, val_auc:0.9579, val_ap: 0.9621
+2023-04-04 17:08:19,901 - Epoch:146, train_loss:1.3035, val_auc:0.9579, val_ap: 0.9620
+2023-04-04 17:08:19,926 - Epoch:147, train_loss:1.2968, val_auc:0.9582, val_ap: 0.9621
+2023-04-04 17:08:19,974 - Epoch:148, train_loss:1.2678, val_auc:0.9584, val_ap: 0.9624, text_auc:0.9482, text_ap: 0.9516
+2023-04-04 17:08:20,037 - Epoch:149, train_loss:1.2763, val_auc:0.9588, val_ap: 0.9626, text_auc:0.9483, text_ap: 0.9517
+2023-04-04 17:08:20,094 - Epoch:150, train_loss:1.2937, val_auc:0.9590, val_ap: 0.9629, text_auc:0.9483, text_ap: 0.9518
+2023-04-04 17:08:20,135 - Epoch:151, train_loss:1.2440, val_auc:0.9589, val_ap: 0.9629
+2023-04-04 17:08:20,175 - Epoch:152, train_loss:1.2847, val_auc:0.9588, val_ap: 0.9627
+2023-04-04 17:08:20,208 - Epoch:153, train_loss:1.2617, val_auc:0.9586, val_ap: 0.9627
+2023-04-04 17:08:20,231 - Epoch:154, train_loss:1.2771, val_auc:0.9582, val_ap: 0.9624
+2023-04-04 17:08:20,263 - Epoch:155, train_loss:1.2752, val_auc:0.9581, val_ap: 0.9624
+2023-04-04 17:08:20,292 - Epoch:156, train_loss:1.2477, val_auc:0.9578, val_ap: 0.9622
+2023-04-04 17:08:20,319 - Epoch:157, train_loss:1.2256, val_auc:0.9579, val_ap: 0.9624
+2023-04-04 17:08:20,364 - Epoch:158, train_loss:1.2173, val_auc:0.9580, val_ap: 0.9624
+2023-04-04 17:08:20,396 - Epoch:159, train_loss:1.2216, val_auc:0.9582, val_ap: 0.9626
+2023-04-04 17:08:20,444 - Epoch:160, train_loss:1.2833, val_auc:0.9586, val_ap: 0.9628
+2023-04-04 17:08:20,477 - Epoch:161, train_loss:1.2132, val_auc:0.9587, val_ap: 0.9629
+2023-04-04 17:08:20,517 - Epoch:162, train_loss:1.2036, val_auc:0.9586, val_ap: 0.9628
+2023-04-04 17:08:20,551 - Epoch:163, train_loss:1.2379, val_auc:0.9584, val_ap: 0.9626
+2023-04-04 17:08:20,592 - Epoch:164, train_loss:1.2313, val_auc:0.9581, val_ap: 0.9625
+2023-04-04 17:08:20,630 - Epoch:165, train_loss:1.2082, val_auc:0.9581, val_ap: 0.9624
+2023-04-04 17:08:20,657 - Epoch:166, train_loss:1.2145, val_auc:0.9580, val_ap: 0.9624
+2023-04-04 17:08:20,703 - Epoch:167, train_loss:1.2359, val_auc:0.9579, val_ap: 0.9624
+2023-04-04 17:08:20,736 - Epoch:168, train_loss:1.2328, val_auc:0.9580, val_ap: 0.9625
+2023-04-04 17:08:20,769 - Epoch:169, train_loss:1.2361, val_auc:0.9581, val_ap: 0.9626
+2023-04-04 17:08:20,834 - Epoch:170, train_loss:1.2110, val_auc:0.9582, val_ap: 0.9627
+2023-04-04 17:08:20,875 - Epoch:171, train_loss:1.1921, val_auc:0.9584, val_ap: 0.9629
+2023-04-04 17:08:20,929 - Epoch:172, train_loss:1.1917, val_auc:0.9586, val_ap: 0.9631
+2023-04-04 17:08:20,956 - Epoch:173, train_loss:1.1559, val_auc:0.9587, val_ap: 0.9631
+2023-04-04 17:08:20,978 - Epoch:174, train_loss:1.1918, val_auc:0.9586, val_ap: 0.9631
+2023-04-04 17:08:21,010 - Epoch:175, train_loss:1.1876, val_auc:0.9583, val_ap: 0.9629
+2023-04-04 17:08:21,040 - Epoch:176, train_loss:1.1938, val_auc:0.9582, val_ap: 0.9627
+2023-04-04 17:08:21,069 - Epoch:177, train_loss:1.1564, val_auc:0.9578, val_ap: 0.9625
+2023-04-04 17:08:21,103 - Epoch:178, train_loss:1.1603, val_auc:0.9577, val_ap: 0.9623
+2023-04-04 17:08:21,148 - Epoch:179, train_loss:1.2007, val_auc:0.9576, val_ap: 0.9622
+2023-04-04 17:08:21,184 - Epoch:180, train_loss:1.1426, val_auc:0.9575, val_ap: 0.9623
+2023-04-04 17:08:21,233 - Epoch:181, train_loss:1.1703, val_auc:0.9578, val_ap: 0.9625
+2023-04-04 17:08:21,263 - Epoch:182, train_loss:1.1583, val_auc:0.9581, val_ap: 0.9628
+2023-04-04 17:08:21,309 - Epoch:183, train_loss:1.1721, val_auc:0.9582, val_ap: 0.9629
+2023-04-04 17:08:21,358 - Epoch:184, train_loss:1.1809, val_auc:0.9581, val_ap: 0.9628
+2023-04-04 17:08:21,393 - Epoch:185, train_loss:1.1573, val_auc:0.9582, val_ap: 0.9628
+2023-04-04 17:08:21,439 - Epoch:186, train_loss:1.1458, val_auc:0.9583, val_ap: 0.9628
+2023-04-04 17:08:21,495 - Epoch:187, train_loss:1.1829, val_auc:0.9582, val_ap: 0.9628
+2023-04-04 17:08:21,525 - Epoch:188, train_loss:1.1454, val_auc:0.9582, val_ap: 0.9627
+2023-04-04 17:08:21,553 - Epoch:189, train_loss:1.1452, val_auc:0.9583, val_ap: 0.9627
+2023-04-04 17:08:21,592 - Epoch:190, train_loss:1.1313, val_auc:0.9579, val_ap: 0.9625
+2023-04-04 17:08:21,628 - Epoch:191, train_loss:1.1281, val_auc:0.9577, val_ap: 0.9623
+2023-04-04 17:08:21,656 - Epoch:192, train_loss:1.1488, val_auc:0.9574, val_ap: 0.9621
+2023-04-04 17:08:21,702 - Epoch:193, train_loss:1.1562, val_auc:0.9572, val_ap: 0.9621
+2023-04-04 17:08:21,735 - Epoch:194, train_loss:1.1483, val_auc:0.9575, val_ap: 0.9622
+2023-04-04 17:08:21,767 - Epoch:195, train_loss:1.1386, val_auc:0.9577, val_ap: 0.9622
+2023-04-04 17:08:21,814 - Epoch:196, train_loss:1.1316, val_auc:0.9583, val_ap: 0.9626
+2023-04-04 17:08:21,847 - Epoch:197, train_loss:1.1039, val_auc:0.9585, val_ap: 0.9627
+2023-04-04 17:08:21,901 - Epoch:198, train_loss:1.1163, val_auc:0.9587, val_ap: 0.9628
+2023-04-04 17:08:21,945 - Epoch:199, train_loss:1.1084, val_auc:0.9583, val_ap: 0.9626
+2023-04-04 17:08:21,945 - final results:
+2023-04-04 17:08:21,946 - ====================================================================================
+2023-04-04 17:08:21,946 - AUC:0.9510+-0.0018 [0.9523240280993343, 0.9529001292626985, 0.9506353315642228, 0.9483057224848683]
+2023-04-04 17:08:21,946 - AP:0.9520+-0.0050 [0.9441519912940428, 0.9576848409100743, 0.9545052441794399, 0.9517863743935318]
+2023-04-04 17:08:22,040 - Epoch:000, train_loss:16.7457, val_auc:0.8208, val_ap: 0.8485, text_auc:0.8319, text_ap: 0.8629
+2023-04-04 17:08:22,087 - Epoch:001, train_loss:16.4954, val_auc:0.8435, val_ap: 0.8628, text_auc:0.8571, text_ap: 0.8813
+2023-04-04 17:08:22,126 - Epoch:002, train_loss:15.8539, val_auc:0.8546, val_ap: 0.8701, text_auc:0.8693, text_ap: 0.8905
+2023-04-04 17:08:22,189 - Epoch:003, train_loss:16.4131, val_auc:0.8610, val_ap: 0.8745, text_auc:0.8758, text_ap: 0.8956
+2023-04-04 17:08:22,233 - Epoch:004, train_loss:15.5691, val_auc:0.8651, val_ap: 0.8777, text_auc:0.8802, text_ap: 0.8989
+2023-04-04 17:08:22,289 - Epoch:005, train_loss:15.5042, val_auc:0.8682, val_ap: 0.8797, text_auc:0.8831, text_ap: 0.9011
+2023-04-04 17:08:22,339 - Epoch:006, train_loss:14.6773, val_auc:0.8707, val_ap: 0.8811, text_auc:0.8854, text_ap: 0.9029
+2023-04-04 17:08:22,379 - Epoch:007, train_loss:14.8533, val_auc:0.8729, val_ap: 0.8829, text_auc:0.8873, text_ap: 0.9045
+2023-04-04 17:08:22,438 - Epoch:008, train_loss:14.0441, val_auc:0.8749, val_ap: 0.8842, text_auc:0.8888, text_ap: 0.9057
+2023-04-04 17:08:22,486 - Epoch:009, train_loss:14.2521, val_auc:0.8767, val_ap: 0.8857, text_auc:0.8904, text_ap: 0.9068
+2023-04-04 17:08:22,532 - Epoch:010, train_loss:13.7713, val_auc:0.8783, val_ap: 0.8871, text_auc:0.8919, text_ap: 0.9079
+2023-04-04 17:08:22,596 - Epoch:011, train_loss:13.8395, val_auc:0.8799, val_ap: 0.8886, text_auc:0.8935, text_ap: 0.9091
+2023-04-04 17:08:22,644 - Epoch:012, train_loss:13.4361, val_auc:0.8816, val_ap: 0.8899, text_auc:0.8950, text_ap: 0.9102
+2023-04-04 17:08:22,685 - Epoch:013, train_loss:13.2538, val_auc:0.8833, val_ap: 0.8912, text_auc:0.8966, text_ap: 0.9114
+2023-04-04 17:08:22,732 - Epoch:014, train_loss:13.0388, val_auc:0.8849, val_ap: 0.8925, text_auc:0.8979, text_ap: 0.9124
+2023-04-04 17:08:22,809 - Epoch:015, train_loss:12.5557, val_auc:0.8862, val_ap: 0.8937, text_auc:0.8993, text_ap: 0.9133
+2023-04-04 17:08:22,871 - Epoch:016, train_loss:12.7386, val_auc:0.8877, val_ap: 0.8946, text_auc:0.9008, text_ap: 0.9144
+2023-04-04 17:08:22,937 - Epoch:017, train_loss:12.2681, val_auc:0.8890, val_ap: 0.8954, text_auc:0.9023, text_ap: 0.9154
+2023-04-04 17:08:22,987 - Epoch:018, train_loss:11.7450, val_auc:0.8906, val_ap: 0.8967, text_auc:0.9038, text_ap: 0.9165
+2023-04-04 17:08:23,051 - Epoch:019, train_loss:11.0946, val_auc:0.8923, val_ap: 0.8982, text_auc:0.9054, text_ap: 0.9176
+2023-04-04 17:08:23,108 - Epoch:020, train_loss:11.5277, val_auc:0.8940, val_ap: 0.8993, text_auc:0.9071, text_ap: 0.9188
+2023-04-04 17:08:23,159 - Epoch:021, train_loss:11.0093, val_auc:0.8964, val_ap: 0.9012, text_auc:0.9091, text_ap: 0.9201
+2023-04-04 17:08:23,211 - Epoch:022, train_loss:10.6343, val_auc:0.8991, val_ap: 0.9032, text_auc:0.9113, text_ap: 0.9218
+2023-04-04 17:08:23,263 - Epoch:023, train_loss:10.3657, val_auc:0.9031, val_ap: 0.9065, text_auc:0.9141, text_ap: 0.9238
+2023-04-04 17:08:23,326 - Epoch:024, train_loss:9.8113, val_auc:0.9073, val_ap: 0.9103, text_auc:0.9172, text_ap: 0.9262
+2023-04-04 17:08:23,368 - Epoch:025, train_loss:9.9775, val_auc:0.9132, val_ap: 0.9155, text_auc:0.9216, text_ap: 0.9297
+2023-04-04 17:08:23,444 - Epoch:026, train_loss:9.5443, val_auc:0.9206, val_ap: 0.9224, text_auc:0.9271, text_ap: 0.9338
+2023-04-04 17:08:23,499 - Epoch:027, train_loss:8.6849, val_auc:0.9305, val_ap: 0.9315, text_auc:0.9347, text_ap: 0.9396
+2023-04-04 17:08:23,562 - Epoch:028, train_loss:8.3090, val_auc:0.9424, val_ap: 0.9430, text_auc:0.9442, text_ap: 0.9466
+2023-04-04 17:08:23,631 - Epoch:029, train_loss:7.6853, val_auc:0.9519, val_ap: 0.9520, text_auc:0.9511, text_ap: 0.9523
+2023-04-04 17:08:23,692 - Epoch:030, train_loss:6.7292, val_auc:0.9544, val_ap: 0.9552, text_auc:0.9532, text_ap: 0.9545
+2023-04-04 17:08:23,751 - Epoch:031, train_loss:6.1542, val_auc:0.9544, val_ap: 0.9556, text_auc:0.9529, text_ap: 0.9547
+2023-04-04 17:08:23,795 - Epoch:032, train_loss:6.2177, val_auc:0.9535, val_ap: 0.9549
+2023-04-04 17:08:23,823 - Epoch:033, train_loss:6.1653, val_auc:0.9522, val_ap: 0.9536
+2023-04-04 17:08:23,857 - Epoch:034, train_loss:6.3167, val_auc:0.9514, val_ap: 0.9531
+2023-04-04 17:08:23,895 - Epoch:035, train_loss:6.0582, val_auc:0.9508, val_ap: 0.9532
+2023-04-04 17:08:23,921 - Epoch:036, train_loss:5.6351, val_auc:0.9496, val_ap: 0.9518
+2023-04-04 17:08:23,962 - Epoch:037, train_loss:5.3696, val_auc:0.9487, val_ap: 0.9508
+2023-04-04 17:08:23,990 - Epoch:038, train_loss:5.0786, val_auc:0.9481, val_ap: 0.9500
+2023-04-04 17:08:24,016 - Epoch:039, train_loss:4.8969, val_auc:0.9480, val_ap: 0.9495
+2023-04-04 17:08:24,056 - Epoch:040, train_loss:4.5287, val_auc:0.9484, val_ap: 0.9496
+2023-04-04 17:08:24,084 - Epoch:041, train_loss:4.4926, val_auc:0.9484, val_ap: 0.9496
+2023-04-04 17:08:24,117 - Epoch:042, train_loss:4.3520, val_auc:0.9486, val_ap: 0.9497
+2023-04-04 17:08:24,152 - Epoch:043, train_loss:4.2270, val_auc:0.9485, val_ap: 0.9498
+2023-04-04 17:08:24,183 - Epoch:044, train_loss:4.2647, val_auc:0.9478, val_ap: 0.9494
+2023-04-04 17:08:24,216 - Epoch:045, train_loss:3.9896, val_auc:0.9472, val_ap: 0.9491
+2023-04-04 17:08:24,261 - Epoch:046, train_loss:3.7927, val_auc:0.9466, val_ap: 0.9489
+2023-04-04 17:08:24,297 - Epoch:047, train_loss:3.8605, val_auc:0.9461, val_ap: 0.9487
+2023-04-04 17:08:24,332 - Epoch:048, train_loss:3.5780, val_auc:0.9455, val_ap: 0.9483
+2023-04-04 17:08:24,380 - Epoch:049, train_loss:3.4527, val_auc:0.9454, val_ap: 0.9486
+2023-04-04 17:08:24,408 - Epoch:050, train_loss:3.4168, val_auc:0.9453, val_ap: 0.9486
+2023-04-04 17:08:24,435 - Epoch:051, train_loss:3.4397, val_auc:0.9453, val_ap: 0.9487
+2023-04-04 17:08:24,481 - Epoch:052, train_loss:3.1272, val_auc:0.9451, val_ap: 0.9487
+2023-04-04 17:08:24,512 - Epoch:053, train_loss:3.2519, val_auc:0.9453, val_ap: 0.9489
+2023-04-04 17:08:24,551 - Epoch:054, train_loss:3.1366, val_auc:0.9456, val_ap: 0.9489
+2023-04-04 17:08:24,590 - Epoch:055, train_loss:2.9515, val_auc:0.9456, val_ap: 0.9487
+2023-04-04 17:08:24,615 - Epoch:056, train_loss:2.9141, val_auc:0.9458, val_ap: 0.9486
+2023-04-04 17:08:24,655 - Epoch:057, train_loss:2.8954, val_auc:0.9457, val_ap: 0.9483
+2023-04-04 17:08:24,693 - Epoch:058, train_loss:2.8907, val_auc:0.9456, val_ap: 0.9482
+2023-04-04 17:08:24,735 - Epoch:059, train_loss:2.8270, val_auc:0.9451, val_ap: 0.9477
+2023-04-04 17:08:24,784 - Epoch:060, train_loss:2.7435, val_auc:0.9450, val_ap: 0.9477
+2023-04-04 17:08:24,820 - Epoch:061, train_loss:2.7220, val_auc:0.9448, val_ap: 0.9476
+2023-04-04 17:08:24,859 - Epoch:062, train_loss:2.7480, val_auc:0.9448, val_ap: 0.9478
+2023-04-04 17:08:24,904 - Epoch:063, train_loss:2.6423, val_auc:0.9448, val_ap: 0.9481
+2023-04-04 17:08:24,937 - Epoch:064, train_loss:2.4907, val_auc:0.9450, val_ap: 0.9483
+2023-04-04 17:08:24,982 - Epoch:065, train_loss:2.4695, val_auc:0.9457, val_ap: 0.9492
+2023-04-04 17:08:25,019 - Epoch:066, train_loss:2.4660, val_auc:0.9460, val_ap: 0.9496
+2023-04-04 17:08:25,065 - Epoch:067, train_loss:2.4634, val_auc:0.9460, val_ap: 0.9495
+2023-04-04 17:08:25,097 - Epoch:068, train_loss:2.3955, val_auc:0.9462, val_ap: 0.9496
+2023-04-04 17:08:25,130 - Epoch:069, train_loss:2.3454, val_auc:0.9463, val_ap: 0.9498
+2023-04-04 17:08:25,169 - Epoch:070, train_loss:2.3296, val_auc:0.9464, val_ap: 0.9498
+2023-04-04 17:08:25,208 - Epoch:071, train_loss:2.2869, val_auc:0.9464, val_ap: 0.9498
+2023-04-04 17:08:25,246 - Epoch:072, train_loss:2.2824, val_auc:0.9464, val_ap: 0.9498
+2023-04-04 17:08:25,293 - Epoch:073, train_loss:2.2307, val_auc:0.9466, val_ap: 0.9499
+2023-04-04 17:08:25,325 - Epoch:074, train_loss:2.1521, val_auc:0.9465, val_ap: 0.9497
+2023-04-04 17:08:25,362 - Epoch:075, train_loss:2.1591, val_auc:0.9464, val_ap: 0.9494
+2023-04-04 17:08:25,396 - Epoch:076, train_loss:2.1142, val_auc:0.9466, val_ap: 0.9496
+2023-04-04 17:08:25,427 - Epoch:077, train_loss:2.0870, val_auc:0.9468, val_ap: 0.9498
+2023-04-04 17:08:25,459 - Epoch:078, train_loss:2.0720, val_auc:0.9472, val_ap: 0.9500
+2023-04-04 17:08:25,497 - Epoch:079, train_loss:2.0253, val_auc:0.9475, val_ap: 0.9503
+2023-04-04 17:08:25,535 - Epoch:080, train_loss:2.0391, val_auc:0.9478, val_ap: 0.9505
+2023-04-04 17:08:25,584 - Epoch:081, train_loss:1.9531, val_auc:0.9482, val_ap: 0.9508
+2023-04-04 17:08:25,608 - Epoch:082, train_loss:1.9185, val_auc:0.9484, val_ap: 0.9512
+2023-04-04 17:08:25,646 - Epoch:083, train_loss:1.9933, val_auc:0.9487, val_ap: 0.9516
+2023-04-04 17:08:25,679 - Epoch:084, train_loss:1.9681, val_auc:0.9489, val_ap: 0.9518
+2023-04-04 17:08:25,707 - Epoch:085, train_loss:1.9364, val_auc:0.9492, val_ap: 0.9521
+2023-04-04 17:08:25,741 - Epoch:086, train_loss:1.8632, val_auc:0.9492, val_ap: 0.9520
+2023-04-04 17:08:25,785 - Epoch:087, train_loss:1.8983, val_auc:0.9492, val_ap: 0.9521
+2023-04-04 17:08:25,820 - Epoch:088, train_loss:1.8420, val_auc:0.9495, val_ap: 0.9524
+2023-04-04 17:08:25,861 - Epoch:089, train_loss:1.7901, val_auc:0.9500, val_ap: 0.9527
+2023-04-04 17:08:25,890 - Epoch:090, train_loss:1.8044, val_auc:0.9501, val_ap: 0.9527
+2023-04-04 17:08:25,933 - Epoch:091, train_loss:1.7219, val_auc:0.9502, val_ap: 0.9528
+2023-04-04 17:08:25,972 - Epoch:092, train_loss:1.7938, val_auc:0.9505, val_ap: 0.9530
+2023-04-04 17:08:26,005 - Epoch:093, train_loss:1.7745, val_auc:0.9507, val_ap: 0.9531
+2023-04-04 17:08:26,045 - Epoch:094, train_loss:1.7184, val_auc:0.9510, val_ap: 0.9534
+2023-04-04 17:08:26,072 - Epoch:095, train_loss:1.7472, val_auc:0.9513, val_ap: 0.9537
+2023-04-04 17:08:26,113 - Epoch:096, train_loss:1.7595, val_auc:0.9509, val_ap: 0.9534
+2023-04-04 17:08:26,161 - Epoch:097, train_loss:1.6849, val_auc:0.9506, val_ap: 0.9531
+2023-04-04 17:08:26,184 - Epoch:098, train_loss:1.6823, val_auc:0.9506, val_ap: 0.9530
+2023-04-04 17:08:26,227 - Epoch:099, train_loss:1.6556, val_auc:0.9505, val_ap: 0.9531
+2023-04-04 17:08:26,262 - Epoch:100, train_loss:1.6688, val_auc:0.9506, val_ap: 0.9532
+2023-04-04 17:08:26,293 - Epoch:101, train_loss:1.6232, val_auc:0.9508, val_ap: 0.9535
+2023-04-04 17:08:26,334 - Epoch:102, train_loss:1.6371, val_auc:0.9510, val_ap: 0.9536
+2023-04-04 17:08:26,363 - Epoch:103, train_loss:1.6439, val_auc:0.9513, val_ap: 0.9538
+2023-04-04 17:08:26,398 - Epoch:104, train_loss:1.5973, val_auc:0.9514, val_ap: 0.9539
+2023-04-04 17:08:26,423 - Epoch:105, train_loss:1.5715, val_auc:0.9516, val_ap: 0.9539
+2023-04-04 17:08:26,467 - Epoch:106, train_loss:1.5907, val_auc:0.9518, val_ap: 0.9541
+2023-04-04 17:08:26,507 - Epoch:107, train_loss:1.5798, val_auc:0.9520, val_ap: 0.9543
+2023-04-04 17:08:26,549 - Epoch:108, train_loss:1.6135, val_auc:0.9524, val_ap: 0.9546
+2023-04-04 17:08:26,590 - Epoch:109, train_loss:1.5605, val_auc:0.9530, val_ap: 0.9552
+2023-04-04 17:08:26,625 - Epoch:110, train_loss:1.5034, val_auc:0.9531, val_ap: 0.9552
+2023-04-04 17:08:26,663 - Epoch:111, train_loss:1.5449, val_auc:0.9534, val_ap: 0.9555
+2023-04-04 17:08:26,719 - Epoch:112, train_loss:1.5988, val_auc:0.9535, val_ap: 0.9554
+2023-04-04 17:08:26,762 - Epoch:113, train_loss:1.4592, val_auc:0.9534, val_ap: 0.9555
+2023-04-04 17:08:26,808 - Epoch:114, train_loss:1.5163, val_auc:0.9534, val_ap: 0.9556
+2023-04-04 17:08:26,847 - Epoch:115, train_loss:1.4863, val_auc:0.9535, val_ap: 0.9556
+2023-04-04 17:08:26,900 - Epoch:116, train_loss:1.5006, val_auc:0.9537, val_ap: 0.9558
+2023-04-04 17:08:26,941 - Epoch:117, train_loss:1.4422, val_auc:0.9539, val_ap: 0.9559
+2023-04-04 17:08:27,004 - Epoch:118, train_loss:1.5043, val_auc:0.9541, val_ap: 0.9560, text_auc:0.9504, text_ap: 0.9530
+2023-04-04 17:08:27,074 - Epoch:119, train_loss:1.4428, val_auc:0.9541, val_ap: 0.9562, text_auc:0.9505, text_ap: 0.9530
+2023-04-04 17:08:27,145 - Epoch:120, train_loss:1.4384, val_auc:0.9543, val_ap: 0.9564, text_auc:0.9505, text_ap: 0.9530
+2023-04-04 17:08:27,186 - Epoch:121, train_loss:1.5115, val_auc:0.9544, val_ap: 0.9565, text_auc:0.9505, text_ap: 0.9529
+2023-04-04 17:08:27,250 - Epoch:122, train_loss:1.4539, val_auc:0.9544, val_ap: 0.9565, text_auc:0.9505, text_ap: 0.9529
+2023-04-04 17:08:27,307 - Epoch:123, train_loss:1.3755, val_auc:0.9544, val_ap: 0.9566, text_auc:0.9504, text_ap: 0.9528
+2023-04-04 17:08:27,374 - Epoch:124, train_loss:1.4434, val_auc:0.9544, val_ap: 0.9567, text_auc:0.9503, text_ap: 0.9527
+2023-04-04 17:08:27,452 - Epoch:125, train_loss:1.4355, val_auc:0.9547, val_ap: 0.9570, text_auc:0.9504, text_ap: 0.9528
+2023-04-04 17:08:27,511 - Epoch:126, train_loss:1.4027, val_auc:0.9550, val_ap: 0.9573, text_auc:0.9505, text_ap: 0.9530
+2023-04-04 17:08:27,556 - Epoch:127, train_loss:1.4150, val_auc:0.9551, val_ap: 0.9574, text_auc:0.9507, text_ap: 0.9532
+2023-04-04 17:08:27,603 - Epoch:128, train_loss:1.4608, val_auc:0.9552, val_ap: 0.9575, text_auc:0.9508, text_ap: 0.9534
+2023-04-04 17:08:27,656 - Epoch:129, train_loss:1.4221, val_auc:0.9553, val_ap: 0.9577, text_auc:0.9511, text_ap: 0.9536
+2023-04-04 17:08:27,719 - Epoch:130, train_loss:1.3659, val_auc:0.9553, val_ap: 0.9577, text_auc:0.9514, text_ap: 0.9539
+2023-04-04 17:08:27,774 - Epoch:131, train_loss:1.3900, val_auc:0.9555, val_ap: 0.9579, text_auc:0.9516, text_ap: 0.9541
+2023-04-04 17:08:27,808 - Epoch:132, train_loss:1.4050, val_auc:0.9555, val_ap: 0.9580
+2023-04-04 17:08:27,832 - Epoch:133, train_loss:1.3851, val_auc:0.9554, val_ap: 0.9579
+2023-04-04 17:08:27,873 - Epoch:134, train_loss:1.3667, val_auc:0.9552, val_ap: 0.9579
+2023-04-04 17:08:27,907 - Epoch:135, train_loss:1.3889, val_auc:0.9550, val_ap: 0.9578
+2023-04-04 17:08:27,943 - Epoch:136, train_loss:1.3521, val_auc:0.9549, val_ap: 0.9578
+2023-04-04 17:08:27,988 - Epoch:137, train_loss:1.3313, val_auc:0.9549, val_ap: 0.9579
+2023-04-04 17:08:28,027 - Epoch:138, train_loss:1.3493, val_auc:0.9551, val_ap: 0.9581
+2023-04-04 17:08:28,076 - Epoch:139, train_loss:1.2901, val_auc:0.9554, val_ap: 0.9583, text_auc:0.9514, text_ap: 0.9538
+2023-04-04 17:08:28,127 - Epoch:140, train_loss:1.3209, val_auc:0.9556, val_ap: 0.9584, text_auc:0.9517, text_ap: 0.9541
+2023-04-04 17:08:28,181 - Epoch:141, train_loss:1.3306, val_auc:0.9559, val_ap: 0.9587, text_auc:0.9520, text_ap: 0.9543
+2023-04-04 17:08:28,235 - Epoch:142, train_loss:1.3585, val_auc:0.9561, val_ap: 0.9589, text_auc:0.9521, text_ap: 0.9544
+2023-04-04 17:08:28,275 - Epoch:143, train_loss:1.3394, val_auc:0.9561, val_ap: 0.9589, text_auc:0.9521, text_ap: 0.9546
+2023-04-04 17:08:28,312 - Epoch:144, train_loss:1.3130, val_auc:0.9561, val_ap: 0.9589
+2023-04-04 17:08:28,356 - Epoch:145, train_loss:1.2961, val_auc:0.9558, val_ap: 0.9588
+2023-04-04 17:08:28,389 - Epoch:146, train_loss:1.2931, val_auc:0.9557, val_ap: 0.9588
+2023-04-04 17:08:28,432 - Epoch:147, train_loss:1.2748, val_auc:0.9558, val_ap: 0.9589
+2023-04-04 17:08:28,478 - Epoch:148, train_loss:1.2875, val_auc:0.9556, val_ap: 0.9589
+2023-04-04 17:08:28,512 - Epoch:149, train_loss:1.2975, val_auc:0.9554, val_ap: 0.9590
+2023-04-04 17:08:28,554 - Epoch:150, train_loss:1.2621, val_auc:0.9555, val_ap: 0.9590
+2023-04-04 17:08:28,596 - Epoch:151, train_loss:1.3075, val_auc:0.9556, val_ap: 0.9591
+2023-04-04 17:08:28,663 - Epoch:152, train_loss:1.2910, val_auc:0.9558, val_ap: 0.9593, text_auc:0.9521, text_ap: 0.9546
+2023-04-04 17:08:28,720 - Epoch:153, train_loss:1.2683, val_auc:0.9561, val_ap: 0.9594, text_auc:0.9525, text_ap: 0.9548
+2023-04-04 17:08:28,791 - Epoch:154, train_loss:1.2765, val_auc:0.9562, val_ap: 0.9595, text_auc:0.9528, text_ap: 0.9552
+2023-04-04 17:08:28,821 - Epoch:155, train_loss:1.2830, val_auc:0.9560, val_ap: 0.9593
+2023-04-04 17:08:28,851 - Epoch:156, train_loss:1.2838, val_auc:0.9558, val_ap: 0.9591
+2023-04-04 17:08:28,891 - Epoch:157, train_loss:1.2600, val_auc:0.9559, val_ap: 0.9591
+2023-04-04 17:08:28,936 - Epoch:158, train_loss:1.2419, val_auc:0.9560, val_ap: 0.9592
+2023-04-04 17:08:28,986 - Epoch:159, train_loss:1.2410, val_auc:0.9563, val_ap: 0.9595, text_auc:0.9529, text_ap: 0.9555
+2023-04-04 17:08:29,018 - Epoch:160, train_loss:1.2429, val_auc:0.9559, val_ap: 0.9594
+2023-04-04 17:08:29,062 - Epoch:161, train_loss:1.2539, val_auc:0.9555, val_ap: 0.9593
+2023-04-04 17:08:29,096 - Epoch:162, train_loss:1.2214, val_auc:0.9552, val_ap: 0.9591
+2023-04-04 17:08:29,134 - Epoch:163, train_loss:1.2057, val_auc:0.9551, val_ap: 0.9590
+2023-04-04 17:08:29,179 - Epoch:164, train_loss:1.2068, val_auc:0.9548, val_ap: 0.9588
+2023-04-04 17:08:29,210 - Epoch:165, train_loss:1.1899, val_auc:0.9546, val_ap: 0.9586
+2023-04-04 17:08:29,257 - Epoch:166, train_loss:1.2295, val_auc:0.9548, val_ap: 0.9588
+2023-04-04 17:08:29,316 - Epoch:167, train_loss:1.2289, val_auc:0.9550, val_ap: 0.9589
+2023-04-04 17:08:29,354 - Epoch:168, train_loss:1.1877, val_auc:0.9552, val_ap: 0.9589
+2023-04-04 17:08:29,395 - Epoch:169, train_loss:1.1989, val_auc:0.9552, val_ap: 0.9590
+2023-04-04 17:08:29,441 - Epoch:170, train_loss:1.2164, val_auc:0.9555, val_ap: 0.9594
+2023-04-04 17:08:29,485 - Epoch:171, train_loss:1.1856, val_auc:0.9555, val_ap: 0.9594
+2023-04-04 17:08:29,547 - Epoch:172, train_loss:1.1874, val_auc:0.9554, val_ap: 0.9593
+2023-04-04 17:08:29,583 - Epoch:173, train_loss:1.1799, val_auc:0.9550, val_ap: 0.9591
+2023-04-04 17:08:29,637 - Epoch:174, train_loss:1.1936, val_auc:0.9551, val_ap: 0.9591
+2023-04-04 17:08:29,698 - Epoch:175, train_loss:1.1809, val_auc:0.9549, val_ap: 0.9590
+2023-04-04 17:08:29,740 - Epoch:176, train_loss:1.1514, val_auc:0.9547, val_ap: 0.9590
+2023-04-04 17:08:29,780 - Epoch:177, train_loss:1.1866, val_auc:0.9547, val_ap: 0.9591
+2023-04-04 17:08:29,831 - Epoch:178, train_loss:1.1881, val_auc:0.9546, val_ap: 0.9589
+2023-04-04 17:08:29,871 - Epoch:179, train_loss:1.1682, val_auc:0.9547, val_ap: 0.9588
+2023-04-04 17:08:29,913 - Epoch:180, train_loss:1.1738, val_auc:0.9547, val_ap: 0.9589
+2023-04-04 17:08:29,959 - Epoch:181, train_loss:1.1824, val_auc:0.9551, val_ap: 0.9592
+2023-04-04 17:08:29,997 - Epoch:182, train_loss:1.1725, val_auc:0.9555, val_ap: 0.9594
+2023-04-04 17:08:30,035 - Epoch:183, train_loss:1.1495, val_auc:0.9557, val_ap: 0.9594
+2023-04-04 17:08:30,074 - Epoch:184, train_loss:1.1844, val_auc:0.9555, val_ap: 0.9593
+2023-04-04 17:08:30,120 - Epoch:185, train_loss:1.1724, val_auc:0.9551, val_ap: 0.9591
+2023-04-04 17:08:30,147 - Epoch:186, train_loss:1.1356, val_auc:0.9549, val_ap: 0.9591
+2023-04-04 17:08:30,176 - Epoch:187, train_loss:1.1778, val_auc:0.9551, val_ap: 0.9592
+2023-04-04 17:08:30,220 - Epoch:188, train_loss:1.1720, val_auc:0.9545, val_ap: 0.9588
+2023-04-04 17:08:30,256 - Epoch:189, train_loss:1.1615, val_auc:0.9545, val_ap: 0.9588
+2023-04-04 17:08:30,287 - Epoch:190, train_loss:1.1591, val_auc:0.9544, val_ap: 0.9587
+2023-04-04 17:08:30,337 - Epoch:191, train_loss:1.1613, val_auc:0.9546, val_ap: 0.9588
+2023-04-04 17:08:30,368 - Epoch:192, train_loss:1.1267, val_auc:0.9547, val_ap: 0.9588
+2023-04-04 17:08:30,422 - Epoch:193, train_loss:1.1391, val_auc:0.9550, val_ap: 0.9590
+2023-04-04 17:08:30,460 - Epoch:194, train_loss:1.1296, val_auc:0.9552, val_ap: 0.9591
+2023-04-04 17:08:30,482 - Epoch:195, train_loss:1.1400, val_auc:0.9551, val_ap: 0.9592
+2023-04-04 17:08:30,518 - Epoch:196, train_loss:1.1589, val_auc:0.9549, val_ap: 0.9592
+2023-04-04 17:08:30,567 - Epoch:197, train_loss:1.1214, val_auc:0.9542, val_ap: 0.9588
+2023-04-04 17:08:30,610 - Epoch:198, train_loss:1.1159, val_auc:0.9540, val_ap: 0.9588
+2023-04-04 17:08:30,658 - Epoch:199, train_loss:1.1226, val_auc:0.9536, val_ap: 0.9585
+2023-04-04 17:08:30,659 - final results:
+2023-04-04 17:08:30,659 - ====================================================================================
+2023-04-04 17:08:30,660 - AUC:0.9514+-0.0018 [0.9523240280993343, 0.9529001292626985, 0.9506353315642228, 0.9483057224848683, 0.9528677235722592]
+2023-04-04 17:08:30,660 - AP:0.9527+-0.0047 [0.9441519912940428, 0.9576848409100743, 0.9545052441794399, 0.9517863743935318, 0.9554566560679943]
