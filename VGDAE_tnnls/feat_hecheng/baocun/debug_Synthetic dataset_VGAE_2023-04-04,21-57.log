@@ -1,2 +1,0 @@
-2023-04-04 21:57:38,914 - args: Namespace(dataset='Synthetic dataset', num_c=500, q=0.0001, p1=0.02, p2=0.04, p3=0.06, p4=0.08, p5=0.1, log_dir='logs/', name='debug', model='VGAE', k=5, x_dim=8, routit=3, dropout=0, gpu=-1, val_frac=0.05, test_frac=0.1, argv=['/home/dell/zxj/feat_hecheng/DGAE/feat_vdgae.py'], device=device(type='cuda', index=1))
-2023-04-04 21:57:38,914 - seed:861
